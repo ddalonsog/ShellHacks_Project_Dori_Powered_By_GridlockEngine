@@ -1,9 +1,10 @@
 require('dotenv').config();
 
+// Sets up the Express server and routes for the GridLock API.
+// Commented out routes are placeholders for future implementation of additional features.
 const express = require('express');
 const cors = require('cors');
-
-//const authRoutes = require('./routes/auth');
+const authRoutes = require('./routes/auth');
 //const projectRoutes = require('./routes/projects');
 //const conflictRoutes = require('./routes/conflicts');
 //const collaborationRoutes = require('./routes/collaborations');
@@ -18,7 +19,7 @@ app.use(express.json({ limit: '2mb' }));
 
 app.get('/api/health', (req, res) => res.json({ status: 'ok' }));
 
-//app.use('/api/auth', authRoutes);
+app.use('/api/auth', authRoutes);
 //app.use('/api/projects', projectRoutes);
 //app.use('/api/conflicts', conflictRoutes);
 //app.use('/api/collaborations', collaborationRoutes);
