@@ -51,4 +51,98 @@ router.get('/', async (req, res) => {
   }
 });
 
+router.post('/', async (req, res) => {
+  try {
+    const {
+      title,
+      category,
+      subtype,
+      voltage_kv,
+      start_date,
+      end_date,
+      status,
+      latitude,
+      longitude,
+    } = req.body;
+
+    if (
+      !title ||
+      !category ||
+      !subtype ||
+      !start_date ||
+      !end_date ||
+      !status ||
+      latitude === undefined ||
+      longitude === undefined
+    ) {
+      return res.status(400).json({
+        error: 'Missing required project fields',
+      });
+    }
+
+    const result = await pool.query(
+      `
+      INSERT INTO projects (
+        utility_id,
+        title,
+        category,
+        subtype,
+        voltage_kv,
+        start_date,
+        end_date,
+        status,
+        geom,
+        ownership_visibility,
+        source_type
+      )
+      VALUES (
+        1,
+        $1,
+        $2,
+        $3,
+        $4,
+        $5,
+        $6,
+        $7,
+        ST_SetSRID(ST_MakePoint($8, $9), 4326),
+        'public',
+        'manual'
+      )
+      RETURNING
+        id,
+        title,
+        category,
+        subtype,
+        voltage_kv,
+        start_date,
+        end_date,
+        status,
+        ST_AsGeoJSON(geom)::json AS geometry;
+      `,
+      [
+        title,
+        category,
+        subtype,
+        voltage_kv || null,
+        start_date,
+        end_date,
+        status,
+        Number(longitude),
+        Number(latitude),
+      ]
+    );
+
+    res.status(201).json({
+      message: 'Project created successfully',
+      project: result.rows[0],
+    });
+  } catch (error) {
+    console.error('Error creating project:', error);
+
+    res.status(500).json({
+      error: 'Unable to create project',
+    });
+  }
+});
+
 module.exports = router;

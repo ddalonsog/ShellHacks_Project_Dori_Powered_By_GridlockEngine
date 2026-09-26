@@ -5,6 +5,7 @@ import 'leaflet/dist/leaflet.css';
 import { apiFetch } from '../api';
 import Filters, { type FilterValues } from './Filters';
 import ConflictPanel from './ConflictPanel';
+import ProjectForm from './ProjectForm';
 
 type ProjectCollection = {
   type: 'FeatureCollection';
@@ -111,7 +112,11 @@ export default function GridMap() {
   return (
     <div style={{ height: '100vh', width: '100vw' }}>
       <Filters filters={filters} onChange={setFilters} />
-
+        <ProjectForm
+  onProjectCreated={() => {
+    window.location.reload();
+  }}
+/>
       <div
         style={{
           position: 'absolute',
