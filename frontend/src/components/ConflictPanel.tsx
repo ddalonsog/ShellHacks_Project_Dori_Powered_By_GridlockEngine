@@ -37,6 +37,7 @@ export default function ConflictPanel({
           cursor: 'pointer',
           fontSize: 15,
           fontWeight: 600,
+          color: '#222',
         }}
       >
         ⚠️ {conflicts.length} Conflict

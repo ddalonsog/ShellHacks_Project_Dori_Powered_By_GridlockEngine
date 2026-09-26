@@ -87,6 +87,7 @@ export default function ProjectForm({
           cursor: 'pointer',
           fontSize: 15,
           fontWeight: 600,
+          color: '#222',
         }}
       >
         ➕ Add Project
@@ -98,16 +99,16 @@ export default function ProjectForm({
           onSubmit={handleSubmit}
           style={{
             marginTop: 8,
-            width: 300,
-            maxHeight: '80vh',
+            width: 260,
+            maxHeight: '70vh',
             overflowY: 'auto',
             background: 'white',
             padding: 16,
             borderRadius: 10,
-            boxShadow: '0 2px 10px rgba(0,0,0,0.25)',
+            boxShadow: '0 2px 10px rgba(0,0,0,0.2)',
           }}
         >
-          <h2 style={{ marginTop: 0 }}>Add Project</h2>
+          <h3 style={{ marginTop: 0 }}>Add Project</h3>
 
           <label>
             Project name
@@ -116,7 +117,12 @@ export default function ProjectForm({
               value={title}
               onChange={(e) => setTitle(e.target.value)}
               required
-              style={{ width: '100%', boxSizing: 'border-box', marginTop: 4, marginBottom: 10 }}
+              style={{
+                width: '100%',
+                boxSizing: 'border-box',
+                marginTop: 4,
+                marginBottom: 10,
+              }}
             />
           </label>
 
@@ -125,7 +131,12 @@ export default function ProjectForm({
             <select
               value={category}
               onChange={(e) => setCategory(e.target.value)}
-              style={{ width: '100%', boxSizing: 'border-box', marginTop: 4, marginBottom: 10 }}
+              style={{
+                width: '100%',
+                boxSizing: 'border-box',
+                marginTop: 4,
+                marginBottom: 10,
+              }}
             >
               <option value="Transmission">Transmission</option>
               <option value="Generation & Storage Integration">
@@ -145,7 +156,12 @@ export default function ProjectForm({
               value={subtype}
               onChange={(e) => setSubtype(e.target.value)}
               required
-              style={{ width: '100%', boxSizing: 'border-box', marginTop: 4, marginBottom: 10 }}
+              style={{
+                width: '100%',
+                boxSizing: 'border-box',
+                marginTop: 4,
+                marginBottom: 10,
+              }}
             />
           </label>
 
@@ -156,7 +172,12 @@ export default function ProjectForm({
               value={voltage}
               onChange={(e) => setVoltage(e.target.value)}
               min="0"
-              style={{ width: '100%', boxSizing: 'border-box', marginTop: 4, marginBottom: 10 }}
+              style={{
+                width: '100%',
+                boxSizing: 'border-box',
+                marginTop: 4,
+                marginBottom: 10,
+              }}
             />
           </label>
 
@@ -167,7 +188,12 @@ export default function ProjectForm({
               value={startDate}
               onChange={(e) => setStartDate(e.target.value)}
               required
-              style={{ width: '100%', boxSizing: 'border-box', marginTop: 4, marginBottom: 10 }}
+              style={{
+                width: '100%',
+                boxSizing: 'border-box',
+                marginTop: 4,
+                marginBottom: 10,
+              }}
             />
           </label>
 
@@ -178,7 +204,12 @@ export default function ProjectForm({
               value={endDate}
               onChange={(e) => setEndDate(e.target.value)}
               required
-              style={{ width: '100%', boxSizing: 'border-box', marginTop: 4, marginBottom: 10 }}
+              style={{
+                width: '100%',
+                boxSizing: 'border-box',
+                marginTop: 4,
+                marginBottom: 10,
+              }}
             />
           </label>
 
@@ -187,7 +218,12 @@ export default function ProjectForm({
             <select
               value={status}
               onChange={(e) => setStatus(e.target.value)}
-              style={{ width: '100%', boxSizing: 'border-box', marginTop: 4, marginBottom: 10 }}
+              style={{
+                width: '100%',
+                boxSizing: 'border-box',
+                marginTop: 4,
+                marginBottom: 10,
+              }}
             >
               <option value="Planned">Planned</option>
               <option value="Active">Active</option>
@@ -204,7 +240,12 @@ export default function ProjectForm({
               onChange={(e) => setLatitude(e.target.value)}
               required
               placeholder="e.g. 25.7617"
-              style={{ width: '100%', boxSizing: 'border-box', marginTop: 4, marginBottom: 10 }}
+              style={{
+                width: '100%',
+                boxSizing: 'border-box',
+                marginTop: 4,
+                marginBottom: 10,
+              }}
             />
           </label>
 
@@ -217,7 +258,10 @@ export default function ProjectForm({
               onChange={(e) => setLongitude(e.target.value)}
               required
               placeholder="e.g. -80.1918"
-              style={{ width: '100%', boxSizing: 'border-box', marginTop: 4, marginBottom: 10 }}
+              style={{
+                width: '100%',
+                boxSizing: 'border-box',
+              }}
             />
           </label>
 
@@ -226,6 +270,7 @@ export default function ProjectForm({
             disabled={submitting}
             style={{
               width: '100%',
+              marginTop: 10,
               padding: '10px 14px',
               cursor: submitting ? 'default' : 'pointer',
             }}

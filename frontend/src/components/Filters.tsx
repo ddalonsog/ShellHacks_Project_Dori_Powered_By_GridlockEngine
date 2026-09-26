@@ -47,9 +47,10 @@ export default function Filters({ filters, onChange }: FiltersProps) {
           cursor: 'pointer',
           fontSize: 15,
           fontWeight: 600,
+          color: '#222',
         }}
       >
-        🔎 Filters
+        🔎 Filter Projects
         {activeFilters > 0 && ` (${activeFilters})`}
         <span style={{ marginLeft: 8 }}>{open ? '▲' : '▼'}</span>
       </button>
