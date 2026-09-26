@@ -2,6 +2,9 @@ const express = require('express');
 const cors = require('cors');
 require('dotenv').config();
 
+const projectsRouter = require('./routes/projects');
+const conflictsRouter = require('./routes/conflicts');
+
 const app = express();
 const PORT = process.env.PORT || 5000;
 
@@ -14,6 +17,9 @@ app.get('/api/health', (req, res) => {
     message: 'GridLock backend is running',
   });
 });
+
+app.use('/api/projects', projectsRouter);
+app.use('/api/conflicts', conflictsRouter);
 
 app.listen(PORT, () => {
   console.log(`GridLock backend running on http://localhost:${PORT}`);
