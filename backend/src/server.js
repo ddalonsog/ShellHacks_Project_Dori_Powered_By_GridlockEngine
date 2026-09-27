@@ -11,10 +11,10 @@ const conflictRoutes = require('./routes/conflicts');
 const documentRoutes = require('./routes/documents');
 
 // Future routes
-// const collaborationRoutes = require('./routes/collaborations');
-// const messageRoutes = require('./routes/messages');
-// const notificationRoutes = require('./routes/notifications');
-// const analyticsRoutes = require('./routes/analytics');
+const collaborationRoutes = require('./routes/collaborations');
+//const messageRoutes = require('./routes/messages');
+const notificationRoutes = require('./routes/notifications');
+//const analyticsRoutes = require('./routes/analytics');
 
 const app = express();
 
@@ -41,10 +41,10 @@ app.use('/api/conflicts', conflictRoutes);
 app.use('/api/documents', documentRoutes);
 
 // Future routes
-// app.use('/api/collaborations', collaborationRoutes);
-// app.use('/api/messages', messageRoutes);
-// app.use('/api/notifications', notificationRoutes);
-// app.use('/api/analytics', analyticsRoutes);
+app.use('/api/collaborations', collaborationRoutes);
+//app.use('/api/messages', messageRoutes);
+app.use('/api/notifications', notificationRoutes);
+//app.use('/api/analytics', analyticsRoutes);
 
 
 // ==========================================
