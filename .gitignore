@@ -50,3 +50,9 @@ backend/data/source/
 backend/data/ai-projects.json
 backend/data/ai-projects-normalized.json
 backend/data/projects.json
+
+# Runtime PDF uploads
+backend/data/uploads/
+
+# Runtime timestamped AI extractions
+backend/data/extractions/[0-9]*/

@@ -8,6 +8,7 @@ const pool = require('./db');
 const authRoutes = require('./routes/auth');
 const projectRoutes = require('./routes/projects');
 const conflictRoutes = require('./routes/conflicts');
+const documentRoutes = require('./routes/documents');
 
 // Future routes
 // const collaborationRoutes = require('./routes/collaborations');
@@ -37,6 +38,7 @@ app.get('/api/health', (req, res) => {
 app.use('/api/auth', authRoutes);
 app.use('/api/projects', projectRoutes);
 app.use('/api/conflicts', conflictRoutes);
+app.use('/api/documents', documentRoutes);
 
 // Future routes
 // app.use('/api/collaborations', collaborationRoutes);

@@ -797,3 +797,29 @@ CREATE TABLE messages (
     created_at TIMESTAMP
         DEFAULT CURRENT_TIMESTAMP
 );
+
+-- ==========================================
+-- PROCESSED DOCUMENTS
+-- Prevents the same source document from
+-- being analyzed/imported more than once.
+-- ==========================================
+
+CREATE TABLE IF NOT EXISTS processed_documents (
+    id BIGSERIAL PRIMARY KEY,
+
+    sha256 VARCHAR(64) NOT NULL UNIQUE,
+
+    original_filename TEXT NOT NULL,
+
+    utility_id INTEGER REFERENCES utilities(id)
+        ON DELETE SET NULL,
+
+    extraction_name TEXT,
+
+    status VARCHAR(30) NOT NULL DEFAULT 'completed',
+
+    processed_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+
+CREATE INDEX IF NOT EXISTS idx_processed_documents_sha256
+    ON processed_documents(sha256);
