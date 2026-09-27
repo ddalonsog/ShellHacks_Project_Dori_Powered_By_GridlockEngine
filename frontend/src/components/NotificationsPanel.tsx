@@ -10,6 +10,36 @@ type Notification = {
   created_at: string;
 };
 
+const demoRanking: Notification[] = [
+  {
+    id: -1,
+    project_id: 1,
+    type: 'coordination',
+    message:
+      'Nova Solar ↔ Bull Creek Solar — Potential high-priority coordination opportunity',
+    is_read: false,
+    created_at: new Date().toISOString(),
+  },
+  {
+    id: -2,
+    project_id: 2,
+    type: 'coordination',
+    message:
+      'Clover Solar ↔ Clover BESS — Projects share the same geographic location',
+    is_read: false,
+    created_at: new Date().toISOString(),
+  },
+  {
+    id: -3,
+    project_id: 3,
+    type: 'coordination',
+    message:
+      'Sand Pine Solar ↔ Big Brook BESS — Nearby infrastructure projects detected',
+    is_read: false,
+    created_at: new Date().toISOString(),
+  },
+];
+
 export default function NotificationsPanel() {
   const [notifications, setNotifications] = useState<Notification[]>([]);
   const [isOpen, setIsOpen] = useState(false);
@@ -17,13 +47,32 @@ export default function NotificationsPanel() {
   async function loadNotifications() {
     try {
       const data = await apiFetch('/notifications');
-      setNotifications(data.notifications);
+
+      const realNotifications = data.notifications || [];
+
+      // Demo fallback for ShellHacks presentation.
+      setNotifications(
+        realNotifications.length > 0
+          ? realNotifications
+          : demoRanking
+      );
     } catch (error) {
-      console.error('Failed to load notifications:', error);
+      console.error('Failed to load ranking:', error);
+
+      // Keep the demo usable even if the API is unavailable.
+      setNotifications(demoRanking);
     }
   }
 
   async function markAsRead(id: number) {
+    // Demo entries exist only in the frontend.
+    if (id < 0) {
+      setNotifications((current) =>
+        current.filter((notification) => notification.id !== id)
+      );
+      return;
+    }
+
     try {
       await apiFetch(`/notifications/${id}/read`, {
         method: 'PATCH',
@@ -33,7 +82,7 @@ export default function NotificationsPanel() {
         current.filter((notification) => notification.id !== id)
       );
     } catch (error) {
-      console.error('Failed to mark notification as read:', error);
+      console.error('Failed to dismiss ranking item:', error);
     }
   }
 
@@ -41,9 +90,9 @@ export default function NotificationsPanel() {
     loadNotifications();
   }, []);
 
-  const unreadCount = notifications.filter(
+  const visibleNotifications = notifications.filter(
     (notification) => !notification.is_read
-  ).length;
+  );
 
   return (
     <div
@@ -56,6 +105,7 @@ export default function NotificationsPanel() {
     >
       <button
         onClick={() => setIsOpen(!isOpen)}
+        title="Coordination Ranking"
         style={{
           width: 48,
           height: 48,
@@ -65,10 +115,12 @@ export default function NotificationsPanel() {
           boxShadow: '0 4px 12px rgba(0,0,0,0.25)',
           cursor: 'pointer',
           fontSize: 22,
+          position: 'relative',
         }}
       >
-        🔔
-        {unreadCount > 0 && (
+        🏆
+
+        {visibleNotifications.length > 0 && (
           <span
             style={{
               position: 'absolute',
@@ -86,7 +138,7 @@ export default function NotificationsPanel() {
               fontWeight: 'bold',
             }}
           >
-            {unreadCount}
+            {visibleNotifications.length}
           </span>
         )}
       </button>
@@ -95,13 +147,13 @@ export default function NotificationsPanel() {
         <div
           style={{
             marginTop: 10,
-            width: 320,
-            maxHeight: 400,
+            width: 390,
+            maxHeight: 440,
             overflowY: 'auto',
             background: 'white',
-            borderRadius: 8,
+            borderRadius: 10,
             padding: 16,
-            boxShadow: '0 4px 12px rgba(0,0,0,0.2)',
+            boxShadow: '0 4px 16px rgba(0,0,0,0.22)',
           }}
         >
           <div
@@ -109,10 +161,12 @@ export default function NotificationsPanel() {
               display: 'flex',
               justifyContent: 'space-between',
               alignItems: 'center',
-              marginBottom: 12,
+              marginBottom: 4,
             }}
           >
-            <strong>Notifications</strong>
+            <strong style={{ fontSize: 18 }}>
+              Coordination Ranking
+            </strong>
 
             <button
               onClick={() => setIsOpen(false)}
@@ -127,38 +181,60 @@ export default function NotificationsPanel() {
             </button>
           </div>
 
-          {notifications.length === 0 ? (
-            <div>No new notifications.</div>
+          <div
+            style={{
+              fontSize: 12,
+              color: '#666',
+              marginBottom: 14,
+            }}
+          >
+            Prioritized infrastructure coordination opportunities
+          </div>
+
+          {visibleNotifications.length === 0 ? (
+            <div>No coordination opportunities detected.</div>
           ) : (
-            notifications
-              .filter((notification) => !notification.is_read)
-              .map((notification) => (
+            visibleNotifications.map((notification, index) => (
+              <div
+                key={notification.id}
+                style={{
+                  padding: 12,
+                  marginBottom: 10,
+                  borderRadius: 8,
+                  background: index === 0 ? '#fff8e1' : '#f8f9fa',
+                  border:
+                    index === 0
+                      ? '1px solid #f0c36d'
+                      : '1px solid #ddd',
+                }}
+              >
                 <div
-                  key={notification.id}
                   style={{
-                    padding: 10,
-                    marginBottom: 8,
-                    borderRadius: 6,
-                    background: '#fff3f3',
-                    border: '1px solid #ddd',
+                    fontSize: 13,
+                    fontWeight: 'bold',
+                    marginBottom: 6,
                   }}
                 >
-                  <div style={{ fontSize: 14 }}>
-                    {notification.message}
-                  </div>
-
-                  <button
-                    onClick={() => markAsRead(notification.id)}
-                    style={{
-                      marginTop: 8,
-                      padding: '5px 8px',
-                      cursor: 'pointer',
-                    }}
-                  >
-                    Mark as read
-                  </button>
+                  #{index + 1}
+                  {index === 0 && ' — Top Priority'}
                 </div>
-              ))
+
+                <div style={{ fontSize: 14 }}>
+                  {notification.message}
+                </div>
+
+                <button
+                  onClick={() => markAsRead(notification.id)}
+                  style={{
+                    marginTop: 9,
+                    padding: '5px 9px',
+                    cursor: 'pointer',
+                  }}
+                >
+                  Dismiss
+                </button>
+              </div>
+            ))
           )}
         </div>
       )}

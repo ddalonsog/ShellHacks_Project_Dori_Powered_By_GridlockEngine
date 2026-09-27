@@ -665,7 +665,76 @@ function getInterconnection(project) {
 }
 
 
+function normalizeState(value) {
+  const state = normalizeString(value);
 
+  if (!state) {
+    return null;
+  }
+
+  const stateMap = {
+    'alabama': 'AL',
+    'alaska': 'AK',
+    'arizona': 'AZ',
+    'arkansas': 'AR',
+    'california': 'CA',
+    'colorado': 'CO',
+    'connecticut': 'CT',
+    'delaware': 'DE',
+    'florida': 'FL',
+    'georgia': 'GA',
+    'hawaii': 'HI',
+    'idaho': 'ID',
+    'illinois': 'IL',
+    'indiana': 'IN',
+    'iowa': 'IA',
+    'kansas': 'KS',
+    'kentucky': 'KY',
+    'louisiana': 'LA',
+    'maine': 'ME',
+    'maryland': 'MD',
+    'massachusetts': 'MA',
+    'michigan': 'MI',
+    'minnesota': 'MN',
+    'mississippi': 'MS',
+    'missouri': 'MO',
+    'montana': 'MT',
+    'nebraska': 'NE',
+    'nevada': 'NV',
+    'new hampshire': 'NH',
+    'new jersey': 'NJ',
+    'new mexico': 'NM',
+    'new york': 'NY',
+    'north carolina': 'NC',
+    'north dakota': 'ND',
+    'ohio': 'OH',
+    'oklahoma': 'OK',
+    'oregon': 'OR',
+    'pennsylvania': 'PA',
+    'rhode island': 'RI',
+    'south carolina': 'SC',
+    'south dakota': 'SD',
+    'tennessee': 'TN',
+    'texas': 'TX',
+    'utah': 'UT',
+    'vermont': 'VT',
+    'virginia': 'VA',
+    'washington': 'WA',
+    'west virginia': 'WV',
+    'wisconsin': 'WI',
+    'wyoming': 'WY',
+    'district of columbia': 'DC'
+  };
+
+  const normalized = state.trim();
+
+  // Already a valid two-letter state code.
+  if (/^[A-Za-z]{2}$/.test(normalized)) {
+    return normalized.toUpperCase();
+  }
+
+  return stateMap[normalized.toLowerCase()] || null;
+}
 
 
 function getLocation(project) {
@@ -688,12 +757,10 @@ function getLocation(project) {
 
 
 
+   
     state:
-
-      normalizeString(
-
+      normalizeState(
         location.state
-
       ),
 
 
@@ -897,60 +964,96 @@ function getSourceIds(item) {
 
 
 function getUtilityName(data) {
-
-  return (
-
+  const rawName =
     normalizeString(
-
       data?.document?.utility
-
     ) ||
-
     normalizeString(
-
       data?.utility
+    );
 
-    )
+  const documentText = [
+    rawName,
+    data?.document?.title
+  ]
+    .filter(Boolean)
+    .join(' ')
+    .toLowerCase();
 
-  );
+  /*
+   * Georgia Power's IRP contains GA ITS material.
+   * Keep those chunks under the same utility instead of
+   * creating a separate utility from chunk-specific wording.
+   */
+  if (
+    documentText.includes('georgia power') ||
+    documentText.includes('georgia integrated transmission system') ||
+    documentText.includes('ga its')
+  ) {
+    return 'Georgia Power Company';
+  }
 
+  return rawName;
 }
 
 
-
-
-
 function getUtilityState(data) {
-
   /*
-
-   * Prefer explicit document metadata if present.
-
+   * Prefer explicit document metadata.
    */
 
-
-
   const explicit =
-
-    normalizeString(
-
+    normalizeState(
       data?.document?.state
-
     );
 
-
-
   if (explicit) {
-
-    return explicit
-
-      .toUpperCase()
-
-      .slice(0, 2);
-
+    return explicit;
   }
 
+  /*
+   * Otherwise inspect project locations.
+   */
 
+  const states = new Set();
+
+  for (const project of data.projects || []) {
+    const state =
+      normalizeState(
+        project?.location?.state
+      );
+
+    if (state) {
+      states.add(state);
+    }
+  }
+
+  if (states.size === 1) {
+    return [...states][0];
+  }
+
+  /*
+   * Final fallback using explicit document identity.
+   */
+
+  const documentText = [
+    data?.document?.utility,
+    data?.document?.title
+  ]
+    .filter(Boolean)
+    .join(' ')
+    .toLowerCase();
+
+  if (
+    documentText.includes('georgia power') ||
+    documentText.includes('georgia integrated transmission system') ||
+    documentText.includes('ga its')
+  ) {
+    return 'GA';
+  }
+
+  return null;
+}
 
   /*
 
@@ -963,62 +1066,6 @@ function getUtilityState(data) {
    * supplied states agree.
 
    */
-
-
-
-  const states =
-
-    new Set();
-
-
-
-  for (
-
-    const project
-
-    of data.projects || []
-
-  ) {
-
-    const state =
-
-      normalizeString(
-
-        project?.location?.state
-
-      );
-
-
-
-    if (state) {
-
-      states.add(
-
-        state.toUpperCase()
-
-      );
-
-    }
-
-  }
-
-
-
-  if (states.size === 1) {
-
-    return [...states][0]
-
-      .slice(0, 2);
-
-  }
-
-
-
-  return null;
-
-}
-
-
 
 
 
