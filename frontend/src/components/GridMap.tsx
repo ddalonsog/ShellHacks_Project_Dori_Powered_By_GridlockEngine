@@ -7,6 +7,7 @@ import Filters, { type FilterValues } from './Filters';
 import ConflictPanel from './ConflictPanel';
 import ProjectForm from './ProjectForm';
 import NotificationsPanel from './NotificationsPanel';
+import CollaborationPanel from './CollaborationPanel';
 
 type ProjectCollection = {
   type: 'FeatureCollection';
@@ -114,6 +115,7 @@ export default function GridMap() {
     <div style={{ height: '100vh', width: '100vw' }}>
       <Filters filters={filters} onChange={setFilters} />
         <NotificationsPanel />
+        <CollaborationPanel />
         <ProjectForm
   onProjectCreated={() => {
     window.location.reload();
