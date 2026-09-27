@@ -1,9 +1,10 @@
 const express = require('express');
 const pool = require('../db');
+const authMiddleware = require('../middleware/auth');
 
 const router = express.Router();
 
-router.get('/', async (req, res) => {
+router.get('/', authMiddleware, async (req, res) => {
   try {
     const radius = Number(req.query.radius || 15);
 
@@ -39,6 +40,54 @@ router.get('/', async (req, res) => {
       `,
       [radius]
     );
+
+for (const row of result.rows) {
+  const notificationMessage =
+    `Potential conflict detected between "${row.project_title}" and "${row.conflict_title}".`;
+
+  const users = await pool.query(
+    `
+    SELECT id
+    FROM users
+    WHERE utility_id IN (
+      SELECT utility_id
+      FROM projects
+      WHERE id IN ($1, $2)
+    );
+    `,
+    [row.project_id, row.conflict_id]
+  );
+
+  for (const user of users.rows) {
+    const existing = await pool.query(
+      `
+      SELECT id
+      FROM notifications
+      WHERE user_id = $1
+        AND project_id = $2
+        AND type = 'conflict'
+        AND message = $3
+      LIMIT 1;
+      `,
+      [user.id, row.project_id, notificationMessage]
+    );
+
+    if (existing.rows.length === 0) {
+      await pool.query(
+        `
+        INSERT INTO notifications (
+          user_id,
+          project_id,
+          type,
+          message
+        )
+        VALUES ($1, $2, 'conflict', $3);
+        `,
+        [user.id, row.project_id, notificationMessage]
+      );
+    }
+  }
+}
 
     const conflicts = result.rows.map((row) => ({
       project_id: row.project_id,

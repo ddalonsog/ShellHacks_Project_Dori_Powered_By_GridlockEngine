@@ -6,6 +6,7 @@ import { apiFetch } from '../api';
 import Filters, { type FilterValues } from './Filters';
 import ConflictPanel from './ConflictPanel';
 import ProjectForm from './ProjectForm';
+import NotificationsPanel from './NotificationsPanel';
 
 type ProjectCollection = {
   type: 'FeatureCollection';
@@ -112,6 +113,7 @@ export default function GridMap() {
   return (
     <div style={{ height: '100vh', width: '100vw' }}>
       <Filters filters={filters} onChange={setFilters} />
+        <NotificationsPanel />
         <ProjectForm
   onProjectCreated={() => {
     window.location.reload();
@@ -135,8 +137,8 @@ export default function GridMap() {
       <ConflictPanel conflicts={conflicts} />
 
       <MapContainer
-        center={[27.5, -81.5]}
-        zoom={7}
+        center={[25.7608877, -80.4170414]}
+        zoom={12}
         style={{ height: '100%', width: '100%' }}
       >
         <TileLayer

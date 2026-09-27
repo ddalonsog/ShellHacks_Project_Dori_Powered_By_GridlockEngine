@@ -1,5 +1,6 @@
 const express = require('express');
 const pool = require('../db');
+const authMiddleware = require('../middleware/auth');
 
 const router = express.Router();
 
@@ -51,7 +52,7 @@ router.get('/', async (req, res) => {
   }
 });
 
-router.post('/', async (req, res) => {
+router.post('/', authMiddleware, async (req, res) => {
   try {
     const {
       title,
@@ -96,7 +97,6 @@ router.post('/', async (req, res) => {
         source_type
       )
       VALUES (
-        1,
         $1,
         $2,
         $3,
@@ -104,7 +104,8 @@ router.post('/', async (req, res) => {
         $5,
         $6,
         $7,
-        ST_SetSRID(ST_MakePoint($8, $9), 4326),
+	$8,
+        ST_SetSRID(ST_MakePoint($9, $10), 4326),
         'public',
         'manual'
       )
@@ -120,6 +121,7 @@ router.post('/', async (req, res) => {
         ST_AsGeoJSON(geom)::json AS geometry;
       `,
       [
+        req.user.utility_id,
         title,
         category,
         subtype,
