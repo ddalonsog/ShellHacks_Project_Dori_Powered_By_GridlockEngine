@@ -27,7 +27,7 @@ const router = express.Router();
 
 router.get('/', async (req, res) => {
   const radiusKm =
-    Number(req.query.radiusKm ?? req.query.radius ?? 50);
+  Number(req.query.radiusKm ?? req.query.radius ?? 40.2336);
 
   const maxYearGap =
     Number(req.query.maxYearGap ?? 2);
@@ -415,13 +415,10 @@ router.get('/', async (req, res) => {
         WHERE
 
           ST_DWithin(
-
-            p1.geom::geography,
-            p2.geom::geography,
-
-            $1 * 1000
-
-          )
+  			p1.geom::geography,
+  			p2.geom::geography,
+  			$1::double precision * 1000.0
+			)
 
       ),
 
