@@ -45,3 +45,8 @@ yarn-debug.log*
 yarn-error.log*
 logs/
 *.log
+# GridLock source documents and legacy generated data
+backend/data/source/
+backend/data/ai-projects.json
+backend/data/ai-projects-normalized.json
+backend/data/projects.json

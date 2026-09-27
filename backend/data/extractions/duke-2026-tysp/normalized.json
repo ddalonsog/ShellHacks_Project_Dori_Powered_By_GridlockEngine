@@ -1,0 +1,5951 @@
+{
+  "metadata": {
+    "generated_at": "2026-09-27T02:04:15.415Z",
+    "schema_version": "3.0",
+    "model": "gpt-5.6-terra",
+    "response_id": "resp_03b8627f676092d2006ab879109e4c87d2bd2b9033f383ac39",
+    "openai_file_id": "file-YPdR4mLMzaQxPJJG3ha1Ae",
+    "usage": {
+      "input_tokens": 130715,
+      "input_tokens_details": {
+        "cache_write_tokens": 130712,
+        "cached_tokens": 0
+      },
+      "output_tokens": 20376,
+      "output_tokens_details": {
+        "reasoning_tokens": 815
+      },
+      "total_tokens": 151091
+    },
+    "estimated_cost": {
+      "input_tokens": 130715,
+      "output_tokens": 20376,
+      "estimated_usd": 0.505942,
+      "long_context_pricing": false
+    }
+  },
+  "document": {
+    "utility": "Duke Energy Florida, LLC",
+    "title": "Duke Energy Florida, LLC Ten-Year Site Plan",
+    "planning_period": "2026-2035",
+    "publication_date": "2026-04"
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "document": "Duke Energy Florida, LLC Ten-Year Site Plan (April 2026)",
+      "section": "Executive Summary",
+      "schedule": null,
+      "table": null,
+      "figure": null,
+      "pdf_page": 9,
+      "printed_page": "1",
+      "evidence": "Plan includes solar, storage, CT additions, and retirements through 2035."
+    },
+    {
+      "source_id": "s2",
+      "document": "Duke Energy Florida, LLC Ten-Year Site Plan (April 2026)",
+      "section": "Existing Generating Facilities",
+      "schedule": "Schedule 1",
+      "table": null,
+      "figure": null,
+      "pdf_page": 16,
+      "printed_page": "1-3",
+      "evidence": "Existing steam, combined-cycle, and combustion-turbine units and retirement dates."
+    },
+    {
+      "source_id": "s3",
+      "document": "Duke Energy Florida, LLC Ten-Year Site Plan (April 2026)",
+      "section": "Existing Generating Facilities",
+      "schedule": "Schedule 1",
+      "table": null,
+      "figure": null,
+      "pdf_page": 17,
+      "printed_page": "1-4",
+      "evidence": "Existing solar facilities, capacities, and service dates."
+    },
+    {
+      "source_id": "s4",
+      "document": "Duke Energy Florida, LLC Ten-Year Site Plan (April 2026)",
+      "section": "Resource Planning Forecast",
+      "schedule": "Schedule 8",
+      "table": null,
+      "figure": null,
+      "pdf_page": 80,
+      "printed_page": "3-9",
+      "evidence": "Planned additions, capacity changes, retirements, construction, and commercial-service timing through 2029."
+    },
+    {
+      "source_id": "s5",
+      "document": "Duke Energy Florida, LLC Ten-Year Site Plan (April 2026)",
+      "section": "Resource Planning Forecast",
+      "schedule": "Schedule 8",
+      "table": null,
+      "figure": null,
+      "pdf_page": 81,
+      "printed_page": "3-10",
+      "evidence": "Planned additions, retirements, and solar-degradation changes through 2035."
+    },
+    {
+      "source_id": "s6",
+      "document": "Duke Energy Florida, LLC Ten-Year Site Plan (April 2026)",
+      "section": "Status Report and Specifications of Proposed Generating Facilities",
+      "schedule": "Schedule 9",
+      "table": null,
+      "figure": null,
+      "pdf_page": 82,
+      "printed_page": "3-11",
+      "evidence": "Proposed-project specifications; subsequent pages contain individual facility sheets."
+    },
+    {
+      "source_id": "s7",
+      "document": "Duke Energy Florida, LLC Ten-Year Site Plan (April 2026)",
+      "section": "Status Report and Specifications of Proposed Directly Associated Transmission Lines",
+      "schedule": "Schedule 10",
+      "table": null,
+      "figure": null,
+      "pdf_page": 107,
+      "printed_page": "3-36",
+      "evidence": "Directly associated transmission projects; subsequent pages contain individual projects."
+    },
+    {
+      "source_id": "s8",
+      "document": "Duke Energy Florida, LLC Ten-Year Site Plan (April 2026)",
+      "section": "Battery Energy Storage Systems",
+      "schedule": null,
+      "table": "Table 3.3",
+      "figure": null,
+      "pdf_page": 130,
+      "printed_page": "3-59",
+      "evidence": "Pilot BESS project power and guaranteed-energy values; describes 2027-2034 BESS additions."
+    },
+    {
+      "source_id": "s9",
+      "document": "Duke Energy Florida, LLC Ten-Year Site Plan (April 2026)",
+      "section": "Transmission Planning",
+      "schedule": null,
+      "table": "Table 3.4",
+      "figure": null,
+      "pdf_page": 132,
+      "printed_page": "3-61",
+      "evidence": "DeLand West–Dona Vista planned 230-kV TLSA line."
+    },
+    {
+      "source_id": "s10",
+      "document": "Duke Energy Florida, LLC Ten-Year Site Plan (April 2026)",
+      "section": "Preferred Sites",
+      "schedule": null,
+      "table": null,
+      "figure": "Figures 4.1-4.11",
+      "pdf_page": 135,
+      "printed_page": "4-2",
+      "evidence": "Preferred-site descriptions, maps, environmental information, coordinates, addresses, and interconnection details."
+    },
+    {
+      "source_id": "s11",
+      "document": "Duke Energy Florida, LLC Ten-Year Site Plan (April 2026)",
+      "section": "Firm Renewables and Cogeneration Contracts",
+      "schedule": null,
+      "table": "Table 3.2",
+      "figure": null,
+      "pdf_page": 77,
+      "printed_page": "3-6",
+      "evidence": "Orange Cogen (CFR-Biogen) 104-MW contract expires 12/31/2025."
+    }
+  ],
+  "projects": [
+    {
+      "project_id": "jumper-creek-solar",
+      "canonical_name": "Jumper Creek Solar Center",
+      "aliases": [
+        "Jumper Creek Solar",
+        "Jumper Creek Solar Project"
+      ],
+      "entity_type": "project",
+      "infrastructure_type": "generation",
+      "category": "planned solar generation",
+      "subtype": "single-axis tracking photovoltaic",
+      "technology": "PV",
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": 74.9,
+        "summer_mw": 27,
+        "winter_mw": 3,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": "Sumter",
+        "state": "FL",
+        "address": "W SR 44, Lake Panasoffkee, FL 33538",
+        "latitude": 28.954544,
+        "longitude": -82.176522,
+        "location_source": "explicit_coordinates"
+      },
+      "timeline": {
+        "construction_start": "2025-05",
+        "commercial_service": "2026-05",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": 230,
+        "station": "Cresent switching station",
+        "connection": "New 230-kV terminal connected by short generation tie-line.",
+        "line_length_miles": null
+      },
+      "primary_fuel": "solar",
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "74.9-MWac preferred-site solar project on merchantable timber lands.",
+      "permits": [
+        "FDEP Environmental Resource Permit obtained summer 2025",
+        "FWC gopher tortoise relocation permit received",
+        "Special Use Permit and Final Site Plan identified as required from Sumter County"
+      ],
+      "environmental_notes": [
+        "Gopher tortoises present.",
+        "Florida scrub-jays surveyed; none documented."
+      ],
+      "is_tbd": false,
+      "parent_project_id": null,
+      "related_project_ids": [
+        "jumper-creek-interconnection"
+      ],
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "claims": [
+        {
+          "field": "site_area",
+          "value_text": "~500-600 acres per 74.9-MW solar site",
+          "value_number": null,
+          "unit": null,
+          "capacity_type": null,
+          "scope": "facility_specification",
+          "scope_key": null,
+          "source_ids": [
+            "s6"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "bailey-mill-solar",
+      "canonical_name": "Bailey Mill Solar Center",
+      "aliases": [
+        "Bailey Mill Solar",
+        "Bailey Mill Solar Project"
+      ],
+      "entity_type": "project",
+      "infrastructure_type": "generation",
+      "category": "planned solar generation",
+      "subtype": "fixed-tilt photovoltaic",
+      "technology": "PV",
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": 74.9,
+        "summer_mw": 26,
+        "winter_mw": 4,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": "Jefferson",
+        "state": "FL",
+        "address": "1046 W. Capps Hwy, Monticello, FL 32344",
+        "latitude": null,
+        "longitude": null,
+        "location_source": "explicit_address"
+      },
+      "timeline": {
+        "construction_start": "2025-09",
+        "commercial_service": "2026-08",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": 115,
+        "station": "Waukeenah substation vicinity",
+        "connection": "New line tap on Drifton-to-Waukeenah 115-kV line.",
+        "line_length_miles": null
+      },
+      "primary_fuel": "solar",
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "74.9-MWac solar project on timber and agricultural lands.",
+      "permits": [
+        "Jefferson County Site Plan approval",
+        "FDEP Environmental Resource Permit",
+        "FWC gopher tortoise relocation permit"
+      ],
+      "environmental_notes": [
+        "Gopher tortoises relocated.",
+        "No additional listed species of concern reported."
+      ],
+      "is_tbd": false,
+      "parent_project_id": null,
+      "related_project_ids": [
+        "bailey-mill-interconnection"
+      ],
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "turnpike-solar",
+      "canonical_name": "Turnpike Solar Center",
+      "aliases": [
+        "Turnpike Solar",
+        "Turnpike Solar Project"
+      ],
+      "entity_type": "project",
+      "infrastructure_type": "generation",
+      "category": "planned solar generation",
+      "subtype": "single-axis tracking photovoltaic",
+      "technology": "PV",
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": 74.9,
+        "summer_mw": 27,
+        "winter_mw": 3,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": "Osceola",
+        "state": "FL",
+        "address": "5435 North Canoe Creek Road, Kenansville, FL 34739",
+        "latitude": null,
+        "longitude": null,
+        "location_source": "explicit_address"
+      },
+      "timeline": {
+        "construction_start": "2026-01",
+        "commercial_service": "2027-03",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": 230,
+        "station": "Whippoorwill switching station",
+        "connection": "New terminal via short generation tie-line.",
+        "line_length_miles": null
+      },
+      "primary_fuel": "solar",
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "74.9-MWac solar project on cattle and agricultural land.",
+      "permits": [
+        "Osceola County Site Plan approval",
+        "FDEP ERP obtained December 2025",
+        "FWC gopher tortoise relocation permit"
+      ],
+      "environmental_notes": [
+        "Several wetlands will be avoided.",
+        "Crested caracara habitat surveyed; none found."
+      ],
+      "is_tbd": false,
+      "parent_project_id": null,
+      "related_project_ids": [
+        "turnpike-interconnection"
+      ],
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "banner-solar",
+      "canonical_name": "Banner Solar Center",
+      "aliases": [
+        "Banner Solar",
+        "Banner Mill Solar Project"
+      ],
+      "entity_type": "project",
+      "infrastructure_type": "generation",
+      "category": "planned solar generation",
+      "subtype": "single-axis tracking photovoltaic",
+      "technology": "PV",
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": 74.5,
+        "summer_mw": 27,
+        "winter_mw": 3,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": "Columbia",
+        "state": "FL",
+        "address": "SW SR 47, Fort White, FL 32038",
+        "latitude": 29.880411,
+        "longitude": -82.726739,
+        "location_source": "explicit_coordinates"
+      },
+      "timeline": {
+        "construction_start": "2026-06",
+        "commercial_service": "2027-04",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": 230,
+        "station": "Radiant switching station",
+        "connection": "New terminal in existing 230-kV Radiant switching station.",
+        "line_length_miles": null
+      },
+      "primary_fuel": "solar",
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "74.5-MWac solar project on timber and agricultural land.",
+      "permits": [
+        "Columbia County Site Plan approval December 2025",
+        "FDEP ERP modification approved November 2025",
+        "FWC gopher tortoise relocation permit"
+      ],
+      "environmental_notes": [
+        "Limited wetlands will be avoided.",
+        "Gopher tortoises removed."
+      ],
+      "is_tbd": false,
+      "parent_project_id": null,
+      "related_project_ids": [
+        "banner-interconnection"
+      ],
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "lonesome-camp-solar",
+      "canonical_name": "Lonesome Camp Solar Center",
+      "aliases": [
+        "Lonesome Camp Solar",
+        "Lonesone Camp"
+      ],
+      "entity_type": "project",
+      "infrastructure_type": "generation",
+      "category": "planned solar generation",
+      "subtype": "single-axis tracking photovoltaic",
+      "technology": "PV",
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": 74.9,
+        "summer_mw": 27,
+        "winter_mw": 3,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": "Osceola",
+        "state": "FL",
+        "address": "5465 North Canoe Creek Road, Kenansville, FL 34739",
+        "latitude": null,
+        "longitude": null,
+        "location_source": "explicit_address"
+      },
+      "timeline": {
+        "construction_start": "2026-02",
+        "commercial_service": "2027-05",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": 230,
+        "station": "Whippoorwill switching station",
+        "connection": "New terminal via short generation tie-line.",
+        "line_length_miles": null
+      },
+      "primary_fuel": "solar",
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "74.9-MWac solar project on cattle and agricultural land.",
+      "permits": [
+        "Osceola County Site Plan approval February 2026",
+        "FDEP ERP obtained January 2026",
+        "FWC gopher tortoise relocation permit"
+      ],
+      "environmental_notes": [
+        "Several wetlands will be avoided.",
+        "Crested caracara survey found none."
+      ],
+      "is_tbd": false,
+      "parent_project_id": null,
+      "related_project_ids": [
+        "lonesome-camp-interconnection"
+      ],
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "higdon-solar",
+      "canonical_name": "Higdon Solar Center",
+      "aliases": [
+        "Higdon Solar",
+        "Higdon Project"
+      ],
+      "entity_type": "project",
+      "infrastructure_type": "generation",
+      "category": "planned solar generation",
+      "subtype": "single-axis tracking photovoltaic",
+      "technology": "PV",
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": 74.9,
+        "summer_mw": 25,
+        "winter_mw": 3,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": "Madison",
+        "state": "FL",
+        "address": "S. CR 53, Lee, FL 32059",
+        "latitude": null,
+        "longitude": null,
+        "location_source": "explicit_address"
+      },
+      "timeline": {
+        "construction_start": "2026-09",
+        "commercial_service": "2027-12",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": 230,
+        "station": "Birch Switching Station",
+        "connection": "New 230-kV terminal in existing Birch Switching Station.",
+        "line_length_miles": null
+      },
+      "primary_fuel": "solar",
+      "alternate_fuel": null,
+      "acreage": 595,
+      "description": "74.9-MWac solar facility on a portion of approximately 595 acres.",
+      "permits": [
+        "Final County Board site-plan approval required",
+        "FDEP ERP required",
+        "Potential FWC gopher tortoise relocation permit"
+      ],
+      "environmental_notes": [
+        "Acceptable gopher tortoise habitat; DEF plans a survey before construction."
+      ],
+      "is_tbd": false,
+      "parent_project_id": null,
+      "related_project_ids": [
+        "higdon-interconnection"
+      ],
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "nova-solar",
+      "canonical_name": "Nova Solar Center",
+      "aliases": [
+        "Nova Solar",
+        "Nova Project"
+      ],
+      "entity_type": "project",
+      "infrastructure_type": "generation",
+      "category": "planned solar generation",
+      "subtype": "single-axis tracking photovoltaic",
+      "technology": "PV",
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": 74.9,
+        "summer_mw": 25,
+        "winter_mw": 3,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": "Orange",
+        "state": "FL",
+        "address": "Nova Rd, St. Cloud, FL",
+        "latitude": 28.378061,
+        "longitude": -80.934377,
+        "location_source": "explicit_coordinates"
+      },
+      "timeline": {
+        "construction_start": "2026-09",
+        "commercial_service": "2027-12",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": 230,
+        "station": "Sweetwater Switching Station",
+        "connection": "New Sweetwater Switching Station on Holopaw-to-Canoe Creek 230-kV line.",
+        "line_length_miles": null
+      },
+      "primary_fuel": "solar",
+      "alternate_fuel": null,
+      "acreage": 770,
+      "description": "74.9-MWac solar facility on about 770 acres of timber and cattle-grazing land.",
+      "permits": [
+        "Orange County final site-plan approval required",
+        "FDEP ERP application planned 1Q 2026",
+        "FWC gopher tortoise relocation permit planned"
+      ],
+      "environmental_notes": [
+        "Wetland, habitat, and cultural assessments complete.",
+        "Gopher tortoises present; 100% survey planned."
+      ],
+      "is_tbd": false,
+      "parent_project_id": null,
+      "related_project_ids": [
+        "nova-interconnection"
+      ],
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "bull-creek-solar",
+      "canonical_name": "Bull Creek Solar Center",
+      "aliases": [
+        "Bulk Creek Solar Site",
+        "Bull Creek Solar",
+        "Bull Creek Project"
+      ],
+      "entity_type": "project",
+      "infrastructure_type": "generation",
+      "category": "planned solar generation",
+      "subtype": "single-axis tracking photovoltaic",
+      "technology": "PV",
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": 74.9,
+        "summer_mw": 25,
+        "winter_mw": 3,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": "Orange",
+        "state": "FL",
+        "address": "St. Cloud, FL",
+        "latitude": 28.368398,
+        "longitude": -80.945892,
+        "location_source": "explicit_coordinates"
+      },
+      "timeline": {
+        "construction_start": "2026-11",
+        "commercial_service": "2028-02",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": 230,
+        "station": "Sweetwater Switching Station",
+        "connection": "New Sweetwater Switching Station on Holopaw-to-Canoe Creek 230-kV line.",
+        "line_length_miles": null
+      },
+      "primary_fuel": "solar",
+      "alternate_fuel": null,
+      "acreage": 650,
+      "description": "74.9-MWac solar facility on about 650 acres.",
+      "permits": [
+        "Orange County final site-plan approval required",
+        "FDEP ERP application planned 1Q 2026",
+        "FWC gopher tortoise relocation permit planned"
+      ],
+      "environmental_notes": [
+        "Gopher tortoises present; 100% survey planned."
+      ],
+      "is_tbd": false,
+      "parent_project_id": null,
+      "related_project_ids": [
+        "bull-creek-interconnection"
+      ],
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": [
+        "The preferred-sites list calls this 'Bulk Creek'; Schedule 8 and project sheet use 'Bull Creek'."
+      ]
+    },
+    {
+      "project_id": "wewahootee-solar",
+      "canonical_name": "Wewahootee Solar Center",
+      "aliases": [
+        "Wewahootee Solar",
+        "Wewahootee Project"
+      ],
+      "entity_type": "project",
+      "infrastructure_type": "generation",
+      "category": "planned solar generation",
+      "subtype": "single-axis tracking photovoltaic",
+      "technology": "PV",
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": 74.9,
+        "summer_mw": 25,
+        "winter_mw": 3,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": "Orange",
+        "state": "FL",
+        "address": "St. Cloud, FL",
+        "latitude": 28.384832,
+        "longitude": -80.969111,
+        "location_source": "explicit_coordinates"
+      },
+      "timeline": {
+        "construction_start": "2026-12",
+        "commercial_service": "2028-03",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": 230,
+        "station": "Sweetwater Switching Station",
+        "connection": "New Sweetwater Switching Station on Holopaw-to-Canoe Creek 230-kV line.",
+        "line_length_miles": null
+      },
+      "primary_fuel": "solar",
+      "alternate_fuel": null,
+      "acreage": 790,
+      "description": "74.9-MWac solar facility on about 790 acres.",
+      "permits": [
+        "Orange County final site-plan approval required",
+        "FDEP ERP application planned 2Q 2026",
+        "FWC gopher tortoise relocation permit planned"
+      ],
+      "environmental_notes": [
+        "Gopher tortoises present; 100% survey planned."
+      ],
+      "is_tbd": false,
+      "parent_project_id": null,
+      "related_project_ids": [
+        "wewahootee-interconnection"
+      ],
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "powerline-bess",
+      "canonical_name": "Powerline Energy Storage Site",
+      "aliases": [
+        "Powerline BESS",
+        "Powerline Energy Storage Project"
+      ],
+      "entity_type": "project",
+      "infrastructure_type": "storage",
+      "category": "planned battery energy storage",
+      "subtype": "transmission-tied BESS",
+      "technology": "lithium-ion energy storage",
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": 100,
+        "summer_mw": 96,
+        "winter_mw": 85,
+        "storage_mwh": 200
+      },
+      "location": {
+        "county": "Citrus",
+        "state": "FL",
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "county_only"
+      },
+      "timeline": {
+        "construction_start": "2026-01",
+        "commercial_service": "2027-03",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": 115,
+        "station": "Powerline 230/115-kV Substation",
+        "connection": "New 115-kV terminal position via generation tie-line.",
+        "line_length_miles": null
+      },
+      "primary_fuel": null,
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "100-MW / 200-MWh BESS on existing DEF land; site requires civil work to raise and level parcel.",
+      "permits": [
+        "Existing ERP; modification submitted summer 2025",
+        "Potential FWC relocation permit if required"
+      ],
+      "environmental_notes": [
+        "Acceptable gopher tortoise habitat; survey completed summer 2025."
+      ],
+      "is_tbd": false,
+      "parent_project_id": null,
+      "related_project_ids": [
+        "powerline-interconnection"
+      ],
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "bartow-bess",
+      "canonical_name": "Bartow Energy Storage Site",
+      "aliases": [
+        "Bartow BESS",
+        "Bartow Energy Storage Project"
+      ],
+      "entity_type": "project",
+      "infrastructure_type": "storage",
+      "category": "planned battery energy storage",
+      "subtype": "transmission-tied BESS",
+      "technology": "battery energy storage",
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": 225,
+        "summer_mw": 216,
+        "winter_mw": 191,
+        "storage_mwh": 900
+      },
+      "location": {
+        "county": "Pinellas",
+        "state": "FL",
+        "address": "Bartow Combined Cycle plant",
+        "latitude": null,
+        "longitude": null,
+        "location_source": "explicit_address"
+      },
+      "timeline": {
+        "construction_start": "2027-01",
+        "commercial_service": "2028-10",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": 230,
+        "station": "Bartow Substation",
+        "connection": "230-kV generation tie-line to existing Bartow Substation.",
+        "line_length_miles": null
+      },
+      "primary_fuel": null,
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "225-MW / 900-MWh BESS on a low-lying company-owned parcel at Bartow Combined Cycle.",
+      "permits": [],
+      "environmental_notes": [
+        "Site is being assessed for environmental, jurisdictional, geotechnical, and related conditions."
+      ],
+      "is_tbd": false,
+      "parent_project_id": null,
+      "related_project_ids": [
+        "bartow-bess-interconnection",
+        "p-l-bartow-4"
+      ],
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "tbd-solar-2028",
+      "canonical_name": "TBD Solar 2028",
+      "aliases": [
+        "Unknown PV June 2028"
+      ],
+      "entity_type": "planning_group",
+      "infrastructure_type": "generation",
+      "category": "planned TBD solar",
+      "subtype": "multiple 74.9-MW sites",
+      "technology": "PV",
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": 374.5,
+        "summer_mw": 113,
+        "winter_mw": 21,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": null,
+        "state": null,
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "unknown"
+      },
+      "timeline": {
+        "construction_start": "2026-01",
+        "commercial_service": "2028-06",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": null,
+        "station": null,
+        "connection": null,
+        "line_length_miles": null
+      },
+      "primary_fuel": "solar",
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "Planned multiple 74.9-MW solar units at different, unspecified sites.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": true,
+      "parent_project_id": null,
+      "related_project_ids": [],
+      "source_ids": [
+        "s4",
+        "s6"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "tbd-bess-2029",
+      "canonical_name": "TBD Battery Storage 2029",
+      "aliases": [
+        "Unknown BA June 2029"
+      ],
+      "entity_type": "planning_group",
+      "infrastructure_type": "storage",
+      "category": "planned TBD battery storage",
+      "subtype": "battery storage",
+      "technology": "battery energy storage",
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": 100,
+        "summer_mw": 96,
+        "winter_mw": 85,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": null,
+        "state": null,
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "unknown"
+      },
+      "timeline": {
+        "construction_start": "2028-03",
+        "commercial_service": "2029-06",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": null,
+        "station": null,
+        "connection": null,
+        "line_length_miles": null
+      },
+      "primary_fuel": null,
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "Unspecified planned 100-MW battery-storage resource.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": true,
+      "parent_project_id": null,
+      "related_project_ids": [],
+      "source_ids": [
+        "s4",
+        "s6"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": [
+        "Storage-energy duration/value not provided."
+      ]
+    },
+    {
+      "project_id": "tbd-solar-2029",
+      "canonical_name": "TBD Solar 2029",
+      "aliases": [
+        "Unknown PV June 2029"
+      ],
+      "entity_type": "planning_group",
+      "infrastructure_type": "generation",
+      "category": "planned TBD solar",
+      "subtype": "multiple 74.9-MW sites",
+      "technology": "PV",
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": 449.4,
+        "summer_mw": 117,
+        "winter_mw": 25,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": null,
+        "state": null,
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "unknown"
+      },
+      "timeline": {
+        "construction_start": "2027-01",
+        "commercial_service": "2029-06",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": null,
+        "station": null,
+        "connection": null,
+        "line_length_miles": null
+      },
+      "primary_fuel": "solar",
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "Unspecified planned solar resource group.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": true,
+      "parent_project_id": null,
+      "related_project_ids": [],
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "tbd-bess-2030",
+      "canonical_name": "TBD Battery Storage 2030",
+      "aliases": [
+        "Unknown BA June 2030"
+      ],
+      "entity_type": "planning_group",
+      "infrastructure_type": "storage",
+      "category": "planned TBD battery storage",
+      "subtype": "battery storage",
+      "technology": "battery energy storage",
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": 150,
+        "summer_mw": 143,
+        "winter_mw": 116,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": null,
+        "state": null,
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "unknown"
+      },
+      "timeline": {
+        "construction_start": "2029-03",
+        "commercial_service": "2030-06",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": null,
+        "station": null,
+        "connection": null,
+        "line_length_miles": null
+      },
+      "primary_fuel": null,
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "Unspecified planned 150-MW battery-storage resource.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": true,
+      "parent_project_id": null,
+      "related_project_ids": [],
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": [
+        "Storage-energy duration/value not provided."
+      ]
+    },
+    {
+      "project_id": "tbd-solar-2030",
+      "canonical_name": "TBD Solar 2030",
+      "aliases": [
+        "Unknown PV June 2030"
+      ],
+      "entity_type": "planning_group",
+      "infrastructure_type": "generation",
+      "category": "planned TBD solar",
+      "subtype": "multiple 74.9-MW sites",
+      "technology": "PV",
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": 524.3,
+        "summer_mw": 120,
+        "winter_mw": 29,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": null,
+        "state": null,
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "unknown"
+      },
+      "timeline": {
+        "construction_start": "2028-01",
+        "commercial_service": "2030-06",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": null,
+        "station": null,
+        "connection": null,
+        "line_length_miles": null
+      },
+      "primary_fuel": "solar",
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "Unspecified planned solar resource group.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": true,
+      "parent_project_id": null,
+      "related_project_ids": [],
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "undesignated-ct-p1-p2",
+      "canonical_name": "Undesignated CTs P1-P2",
+      "aliases": [
+        "Unknown P1-P2",
+        "F-frame CTs"
+      ],
+      "entity_type": "planning_group",
+      "infrastructure_type": "generation",
+      "category": "planned combustion turbines",
+      "subtype": "F-frame combustion turbines",
+      "technology": "combustion turbine F",
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": 456,
+        "summer_mw": 436,
+        "winter_mw": 468,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": null,
+        "state": null,
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "unknown"
+      },
+      "timeline": {
+        "construction_start": "2027-01",
+        "commercial_service": "2031-06",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": null,
+        "station": null,
+        "connection": "Total installed cost includes transmission interconnection and integration.",
+        "line_length_miles": null
+      },
+      "primary_fuel": "natural gas",
+      "alternate_fuel": "distillate fuel oil",
+      "acreage": null,
+      "description": "Two planned F-frame combustion turbines.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": true,
+      "parent_project_id": null,
+      "related_project_ids": [],
+      "source_ids": [
+        "s1",
+        "s5",
+        "s6"
+      ],
+      "claims": [
+        {
+          "field": "heat_rate",
+          "value_text": null,
+          "value_number": 10682,
+          "unit": "BTU/kWh",
+          "capacity_type": null,
+          "scope": "facility_specification",
+          "scope_key": null,
+          "source_ids": [
+            "s6"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "tbd-solar-2031",
+      "canonical_name": "TBD Solar 2031",
+      "aliases": [
+        "Unknown PV June 2031"
+      ],
+      "entity_type": "planning_group",
+      "infrastructure_type": "generation",
+      "category": "planned TBD solar",
+      "subtype": "multiple 74.9-MW sites",
+      "technology": "PV",
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": 599.2,
+        "summer_mw": 120,
+        "winter_mw": 30,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": null,
+        "state": null,
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "unknown"
+      },
+      "timeline": {
+        "construction_start": "2029-01",
+        "commercial_service": "2031-06",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": null,
+        "station": null,
+        "connection": null,
+        "line_length_miles": null
+      },
+      "primary_fuel": "solar",
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "Unspecified planned solar resource group.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": true,
+      "parent_project_id": null,
+      "related_project_ids": [],
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "tbd-solar-2032",
+      "canonical_name": "TBD Solar 2032",
+      "aliases": [
+        "Unknown PV June 2032"
+      ],
+      "entity_type": "planning_group",
+      "infrastructure_type": "generation",
+      "category": "planned TBD solar",
+      "subtype": "multiple 74.9-MW sites",
+      "technology": "PV",
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": 599.2,
+        "summer_mw": 100,
+        "winter_mw": 25,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": null,
+        "state": null,
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "unknown"
+      },
+      "timeline": {
+        "construction_start": "2030-01",
+        "commercial_service": "2032-06",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": null,
+        "station": null,
+        "connection": null,
+        "line_length_miles": null
+      },
+      "primary_fuel": "solar",
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "Unspecified planned solar resource group.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": true,
+      "parent_project_id": null,
+      "related_project_ids": [],
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "tbd-solar-2033",
+      "canonical_name": "TBD Solar 2033",
+      "aliases": [
+        "Unknown PV June 2033"
+      ],
+      "entity_type": "planning_group",
+      "infrastructure_type": "generation",
+      "category": "planned TBD solar",
+      "subtype": "multiple 74.9-MW sites",
+      "technology": "PV",
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": 599.2,
+        "summer_mw": 95,
+        "winter_mw": 25,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": null,
+        "state": null,
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "unknown"
+      },
+      "timeline": {
+        "construction_start": "2031-01",
+        "commercial_service": "2033-06",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": null,
+        "station": null,
+        "connection": null,
+        "line_length_miles": null
+      },
+      "primary_fuel": "solar",
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "Unspecified planned solar resource group.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": true,
+      "parent_project_id": null,
+      "related_project_ids": [],
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "tbd-bess-2034-525",
+      "canonical_name": "TBD Battery Storage 2034-A",
+      "aliases": [
+        "Unknown BA 525 MW June 2034"
+      ],
+      "entity_type": "planning_group",
+      "infrastructure_type": "storage",
+      "category": "planned TBD battery storage",
+      "subtype": "battery storage",
+      "technology": "battery energy storage",
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": 525,
+        "summer_mw": 469,
+        "winter_mw": 324,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": null,
+        "state": null,
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "unknown"
+      },
+      "timeline": {
+        "construction_start": "2033-03",
+        "commercial_service": "2034-06",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": null,
+        "station": null,
+        "connection": null,
+        "line_length_miles": null
+      },
+      "primary_fuel": null,
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "Unspecified planned 525-MW battery-storage resource.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": true,
+      "parent_project_id": null,
+      "related_project_ids": [],
+      "source_ids": [
+        "s5",
+        "s6",
+        "s8"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": [
+        "Storage-energy duration/value not provided."
+      ]
+    },
+    {
+      "project_id": "tbd-bess-2034-300",
+      "canonical_name": "TBD Battery Storage 2034-B",
+      "aliases": [
+        "Unknown BA 300 MW June 2034"
+      ],
+      "entity_type": "planning_group",
+      "infrastructure_type": "storage",
+      "category": "planned TBD battery storage",
+      "subtype": "battery storage",
+      "technology": "battery energy storage",
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": 300,
+        "summer_mw": 255,
+        "winter_mw": 234,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": null,
+        "state": null,
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "unknown"
+      },
+      "timeline": {
+        "construction_start": "2033-03",
+        "commercial_service": "2034-06",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": null,
+        "station": null,
+        "connection": null,
+        "line_length_miles": null
+      },
+      "primary_fuel": null,
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "Unspecified planned 300-MW battery-storage resource.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": true,
+      "parent_project_id": null,
+      "related_project_ids": [],
+      "source_ids": [
+        "s5",
+        "s6",
+        "s8"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": [
+        "Storage-energy duration/value not provided."
+      ]
+    },
+    {
+      "project_id": "tbd-solar-2034",
+      "canonical_name": "TBD Solar 2034",
+      "aliases": [
+        "Unknown PV June 2034"
+      ],
+      "entity_type": "planning_group",
+      "infrastructure_type": "generation",
+      "category": "planned TBD solar",
+      "subtype": "multiple 74.9-MW sites",
+      "technology": "PV",
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": 599.2,
+        "summer_mw": 93,
+        "winter_mw": 24,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": null,
+        "state": null,
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "unknown"
+      },
+      "timeline": {
+        "construction_start": "2032-01",
+        "commercial_service": "2034-06",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": null,
+        "station": null,
+        "connection": null,
+        "line_length_miles": null
+      },
+      "primary_fuel": "solar",
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "Unspecified planned solar resource group.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": true,
+      "parent_project_id": null,
+      "related_project_ids": [],
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "undesignated-ct-p3-p4",
+      "canonical_name": "Undesignated CTs P3-P4",
+      "aliases": [
+        "Unknown P3-P4",
+        "HA-frame CTs"
+      ],
+      "entity_type": "planning_group",
+      "infrastructure_type": "generation",
+      "category": "planned combustion turbines",
+      "subtype": "HA-frame combustion turbines",
+      "technology": "combustion turbine HA",
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": 855,
+        "summer_mw": null,
+        "winter_mw": null,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": null,
+        "state": null,
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "unknown"
+      },
+      "timeline": {
+        "construction_start": "2033-03",
+        "commercial_service": "2034-06-01",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": null,
+        "station": null,
+        "connection": "Total installed cost includes transmission interconnection and integration.",
+        "line_length_miles": null
+      },
+      "primary_fuel": "natural gas",
+      "alternate_fuel": "distillate fuel oil",
+      "acreage": null,
+      "description": "Two planned HA-frame combustion turbines.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": true,
+      "parent_project_id": null,
+      "related_project_ids": [],
+      "source_ids": [
+        "s1",
+        "s5",
+        "s6"
+      ],
+      "claims": [
+        {
+          "field": "summer_firm_capacity",
+          "value_text": "234 MW shown on facility specification sheet",
+          "value_number": 234,
+          "unit": "MW",
+          "capacity_type": "summer",
+          "scope": "facility_specification",
+          "scope_key": "Schedule 9 sheet",
+          "source_ids": [
+            "s6"
+          ],
+          "confidence": "high"
+        },
+        {
+          "field": "winter_firm_capacity",
+          "value_text": "162 MW shown on facility specification sheet",
+          "value_number": 162,
+          "unit": "MW",
+          "capacity_type": "winter",
+          "scope": "facility_specification",
+          "scope_key": "Schedule 9 sheet",
+          "source_ids": [
+            "s6"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "conflicts": [
+        {
+          "field": "seasonal_capacity",
+          "description": "Schedule 8 lists 799 MW summer and 871 MW winter for P3-P4, whereas the Schedule 9 facility sheet states 234 MW summer and 162 MW winter.",
+          "claim_source_ids": [
+            "s5",
+            "s6"
+          ],
+          "severity": "critical",
+          "resolution_status": "unresolved"
+        }
+      ],
+      "confidence": "medium",
+      "warnings": [
+        "Schedule 8 values are retained as entity capacity because they are the planning schedule values; Schedule 9 values are preserved as conflicting claims.",
+        "Normalized seasonal capacities cleared because capacity evidence has an unresolved conflict."
+      ]
+    },
+    {
+      "project_id": "tbd-solar-2035",
+      "canonical_name": "TBD Solar 2035",
+      "aliases": [
+        "Unknown PV June 2035"
+      ],
+      "entity_type": "planning_group",
+      "infrastructure_type": "generation",
+      "category": "planned TBD solar",
+      "subtype": "multiple 74.9-MW sites",
+      "technology": "PV",
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": 599.2,
+        "summer_mw": 81,
+        "winter_mw": 21,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": null,
+        "state": null,
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "unknown"
+      },
+      "timeline": {
+        "construction_start": "2033-01",
+        "commercial_service": "2035-06",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": null,
+        "station": null,
+        "connection": null,
+        "line_length_miles": null
+      },
+      "primary_fuel": "solar",
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "Unspecified planned solar resource group.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": true,
+      "parent_project_id": null,
+      "related_project_ids": [],
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "hines-3-upgrade",
+      "canonical_name": "Hines Energy Complex Unit 3 Upgrade",
+      "aliases": [
+        "Hines 3",
+        "Hines 3 heat-rate upgrade"
+      ],
+      "entity_type": "existing_asset",
+      "infrastructure_type": "generation",
+      "category": "combined-cycle capacity increase",
+      "subtype": "combined cycle",
+      "technology": "combined cycle",
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": null,
+        "summer_mw": 45,
+        "winter_mw": 45,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": "Polk",
+        "state": "FL",
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "county_only"
+      },
+      "timeline": {
+        "construction_start": "2026-03",
+        "commercial_service": "2026-05",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": null,
+        "station": null,
+        "connection": null,
+        "line_length_miles": null
+      },
+      "primary_fuel": "natural gas",
+      "alternate_fuel": "distillate fuel oil",
+      "acreage": null,
+      "description": "Planned heat-rate upgrade increasing firm capacity.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": false,
+      "parent_project_id": null,
+      "related_project_ids": [],
+      "source_ids": [
+        "s4"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "hines-4-upgrade",
+      "canonical_name": "Hines Energy Complex Unit 4 Upgrade",
+      "aliases": [
+        "Hines 4",
+        "Hines 4 heat-rate upgrade"
+      ],
+      "entity_type": "existing_asset",
+      "infrastructure_type": "generation",
+      "category": "combined-cycle capacity increase",
+      "subtype": "combined cycle",
+      "technology": "combined cycle",
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": null,
+        "summer_mw": 22,
+        "winter_mw": 14,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": "Polk",
+        "state": "FL",
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "county_only"
+      },
+      "timeline": {
+        "construction_start": "2026-10",
+        "commercial_service": "2026-12",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": null,
+        "station": null,
+        "connection": null,
+        "line_length_miles": null
+      },
+      "primary_fuel": "natural gas",
+      "alternate_fuel": "distillate fuel oil",
+      "acreage": null,
+      "description": "Planned heat-rate upgrade increasing firm capacity.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": false,
+      "parent_project_id": null,
+      "related_project_ids": [],
+      "source_ids": [
+        "s4"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "p-l-bartow-4",
+      "canonical_name": "P. L. Bartow Unit 4",
+      "aliases": [
+        "P L Bartow 4",
+        "Bartow Combined Cycle"
+      ],
+      "entity_type": "existing_asset",
+      "infrastructure_type": "generation",
+      "category": "combined-cycle interconnection-limit capacity increase",
+      "subtype": "combined cycle",
+      "technology": "combined cycle",
+      "status": "existing; planned winter-capacity increase",
+      "capacity": {
+        "nameplate_mw": 1254.2,
+        "summer_mw": 1166,
+        "winter_mw": 1200,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": "Pinellas",
+        "state": "FL",
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "county_only"
+      },
+      "timeline": {
+        "construction_start": null,
+        "commercial_service": "2009-06",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": null,
+        "station": "Bartow Substation",
+        "connection": "1200-MW limitation lifted under interconnection agreement beginning January 2028.",
+        "line_length_miles": null
+      },
+      "primary_fuel": "natural gas",
+      "alternate_fuel": "distillate fuel oil",
+      "acreage": null,
+      "description": "Existing Bartow combined-cycle unit; winter capacity increase is due to lifting of interconnection limitation.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": false,
+      "parent_project_id": null,
+      "related_project_ids": [
+        "bartow-bess"
+      ],
+      "source_ids": [
+        "s2",
+        "s4"
+      ],
+      "claims": [
+        {
+          "field": "winter_capacity_increase",
+          "value_text": "Interconnection agreement permits 122 MW additional winter capacity beginning January 2028.",
+          "value_number": 122,
+          "unit": "MW",
+          "capacity_type": "capacity_increase",
+          "scope": "project",
+          "scope_key": null,
+          "source_ids": [
+            "s4"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "bayboro-ct-group",
+      "canonical_name": "Bayboro Peaking Units P1, P2 and P4",
+      "aliases": [
+        "Bayboro P1, P2 and P4"
+      ],
+      "entity_type": "existing_asset",
+      "infrastructure_type": "generation",
+      "category": "scheduled combustion-turbine retirement",
+      "subtype": "combustion turbines",
+      "technology": "CT",
+      "status": "scheduled for retirement",
+      "capacity": {
+        "nameplate_mw": null,
+        "summer_mw": 97,
+        "winter_mw": 139,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": "Pinellas",
+        "state": "FL",
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "county_only"
+      },
+      "timeline": {
+        "construction_start": null,
+        "commercial_service": null,
+        "retirement_date": "2026-09"
+      },
+      "interconnection": {
+        "voltage_kv": null,
+        "station": null,
+        "connection": null,
+        "line_length_miles": null
+      },
+      "primary_fuel": "distillate fuel oil",
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "Existing Bayboro CT units scheduled for retirement.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": false,
+      "parent_project_id": null,
+      "related_project_ids": [],
+      "source_ids": [
+        "s2",
+        "s4"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "bartow-ct-p1-p4",
+      "canonical_name": "Bartow Peaking Units P1-P4",
+      "aliases": [
+        "Bartow P1, P2, P3 and P4"
+      ],
+      "entity_type": "existing_asset",
+      "infrastructure_type": "generation",
+      "category": "scheduled combustion-turbine retirement",
+      "subtype": "combustion turbines",
+      "technology": "CT",
+      "status": "scheduled for retirement",
+      "capacity": {
+        "nameplate_mw": null,
+        "summer_mw": 168,
+        "winter_mw": 212,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": "Pinellas",
+        "state": "FL",
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "county_only"
+      },
+      "timeline": {
+        "construction_start": null,
+        "commercial_service": null,
+        "retirement_date": "2034-06"
+      },
+      "interconnection": {
+        "voltage_kv": null,
+        "station": null,
+        "connection": null,
+        "line_length_miles": null
+      },
+      "primary_fuel": "mixed natural gas/distillate fuel oil",
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "Existing Bartow CTs scheduled for retirement in two fuel-group rows.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": false,
+      "parent_project_id": null,
+      "related_project_ids": [],
+      "source_ids": [
+        "s2",
+        "s5"
+      ],
+      "claims": [
+        {
+          "field": "summer_retired_capacity",
+          "value_text": "P1/P3 82 MW and P2/P4 86 MW",
+          "value_number": 168,
+          "unit": "MW",
+          "capacity_type": "capacity_increase",
+          "scope": "aggregate",
+          "scope_key": "retirement group",
+          "source_ids": [
+            "s5"
+          ],
+          "confidence": "high"
+        },
+        {
+          "field": "winter_retired_capacity",
+          "value_text": "P1/P3 101 MW and P2/P4 111 MW",
+          "value_number": 212,
+          "unit": "MW",
+          "capacity_type": "other",
+          "scope": "aggregate",
+          "scope_key": "retirement group",
+          "source_ids": [
+            "s5"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "debary-ct-p2-p6",
+      "canonical_name": "DeBary Peaking Units P2-P6",
+      "aliases": [
+        "DeBary P2-P6"
+      ],
+      "entity_type": "existing_asset",
+      "infrastructure_type": "generation",
+      "category": "scheduled combustion-turbine retirement",
+      "subtype": "combustion turbines",
+      "technology": "CT",
+      "status": "scheduled for retirement",
+      "capacity": {
+        "nameplate_mw": null,
+        "summer_mw": 227,
+        "winter_mw": 292,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": "Volusia",
+        "state": "FL",
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "county_only"
+      },
+      "timeline": {
+        "construction_start": null,
+        "commercial_service": null,
+        "retirement_date": "2034-06"
+      },
+      "interconnection": {
+        "voltage_kv": null,
+        "station": null,
+        "connection": null,
+        "line_length_miles": null
+      },
+      "primary_fuel": "distillate fuel oil",
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "Existing DeBary CT group scheduled for retirement.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": false,
+      "parent_project_id": null,
+      "related_project_ids": [],
+      "source_ids": [
+        "s2",
+        "s5"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "intercession-city-ct-p4-p6",
+      "canonical_name": "Intercession City Peaking Units P4-P6",
+      "aliases": [
+        "Intercession City P4-P6"
+      ],
+      "entity_type": "existing_asset",
+      "infrastructure_type": "generation",
+      "category": "scheduled combustion-turbine retirement",
+      "subtype": "combustion turbines",
+      "technology": "CT",
+      "status": "scheduled for retirement",
+      "capacity": {
+        "nameplate_mw": null,
+        "summer_mw": 138,
+        "winter_mw": 179,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": "Osceola",
+        "state": "FL",
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "county_only"
+      },
+      "timeline": {
+        "construction_start": null,
+        "commercial_service": null,
+        "retirement_date": "2034-06"
+      },
+      "interconnection": {
+        "voltage_kv": null,
+        "station": null,
+        "connection": null,
+        "line_length_miles": null
+      },
+      "primary_fuel": "distillate fuel oil",
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "Existing Intercession City CT group scheduled for retirement.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": false,
+      "parent_project_id": null,
+      "related_project_ids": [],
+      "source_ids": [
+        "s2",
+        "s5"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "crystal-river-4-5",
+      "canonical_name": "Crystal River Units 4 and 5",
+      "aliases": [
+        "Crystal River 4, 5",
+        "Crystal River North coal units"
+      ],
+      "entity_type": "existing_asset",
+      "infrastructure_type": "generation",
+      "category": "scheduled coal-fired steam retirement",
+      "subtype": "coal-fired steam units",
+      "technology": "steam turbine",
+      "status": "scheduled for retirement",
+      "capacity": {
+        "nameplate_mw": 1478.52,
+        "summer_mw": 1422,
+        "winter_mw": 1442,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": "Citrus",
+        "state": "FL",
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "county_only"
+      },
+      "timeline": {
+        "construction_start": null,
+        "commercial_service": null,
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": null,
+        "station": null,
+        "connection": null,
+        "line_length_miles": null
+      },
+      "primary_fuel": "bituminous coal",
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "Remaining two DEF coal-fired generating units scheduled for retirement; narrative describes May 2034 while Schedule 8 lists June 2034.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": false,
+      "parent_project_id": null,
+      "related_project_ids": [],
+      "source_ids": [
+        "s1",
+        "s2",
+        "s4",
+        "s5"
+      ],
+      "claims": [],
+      "conflicts": [
+        {
+          "field": "retirement_date",
+          "description": "Narrative says Crystal River 4 and 5 are scheduled for retirement in May 2034; Schedule 1 and Schedule 8 list June 2034.",
+          "claim_source_ids": [
+            "s1",
+            "s2",
+            "s5"
+          ],
+          "severity": "warning",
+          "resolution_status": "unresolved"
+        }
+      ],
+      "confidence": "medium",
+      "warnings": [
+        "Normalized retirement date cleared because supporting evidence has an unresolved conflict."
+      ]
+    },
+    {
+      "project_id": "orange-cogen-contract",
+      "canonical_name": "Orange Cogen (CFR-Biogen) Contract",
+      "aliases": [
+        "Orange Cogen",
+        "CFR-Biogen"
+      ],
+      "entity_type": "contract",
+      "infrastructure_type": "none",
+      "category": "firm renewable/cogeneration purchase contract",
+      "subtype": "qualifying facility contract",
+      "technology": "cogeneration",
+      "status": "expired",
+      "capacity": {
+        "nameplate_mw": null,
+        "summer_mw": 104,
+        "winter_mw": null,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": null,
+        "state": null,
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "unknown"
+      },
+      "timeline": {
+        "construction_start": null,
+        "commercial_service": null,
+        "retirement_date": "2025-12-31"
+      },
+      "interconnection": {
+        "voltage_kv": null,
+        "station": null,
+        "connection": null,
+        "line_length_miles": null
+      },
+      "primary_fuel": null,
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "Firm qualifying-facility renewable/cogeneration contract.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": false,
+      "parent_project_id": null,
+      "related_project_ids": [],
+      "source_ids": [
+        "s11"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "existing-bess-pilot-program",
+      "canonical_name": "DEF Battery Energy Storage Pilot Program",
+      "aliases": [
+        "50 MW battery storage pilot program"
+      ],
+      "entity_type": "program",
+      "infrastructure_type": "storage",
+      "category": "existing battery-storage pilot program",
+      "subtype": "distributed and long-duration pilot BESS",
+      "technology": "battery energy storage",
+      "status": "in service",
+      "capacity": {
+        "nameplate_mw": null,
+        "summer_mw": null,
+        "winter_mw": null,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": null,
+        "state": "FL",
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "unknown"
+      },
+      "timeline": {
+        "construction_start": null,
+        "commercial_service": "2023",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": null,
+        "station": null,
+        "connection": null,
+        "line_length_miles": null
+      },
+      "primary_fuel": null,
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "Pilot projects test grid deferral, backup, peak shaving, and energy-arbitrage applications.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": false,
+      "parent_project_id": null,
+      "related_project_ids": [
+        "cape-san-blas-bess",
+        "trenton-bess",
+        "micanopy-bess",
+        "jennings-bess",
+        "john-hopkins-bess",
+        "lake-placid-bess",
+        "suwannee-nas-bess"
+      ],
+      "source_ids": [
+        "s8"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "cape-san-blas-bess",
+      "canonical_name": "Cape San Blas BESS",
+      "aliases": [],
+      "entity_type": "project",
+      "infrastructure_type": "storage",
+      "category": "existing pilot BESS",
+      "subtype": "battery storage",
+      "technology": "battery energy storage",
+      "status": "in service",
+      "capacity": {
+        "nameplate_mw": 5.5,
+        "summer_mw": null,
+        "winter_mw": null,
+        "storage_mwh": 14.3
+      },
+      "location": {
+        "county": null,
+        "state": "FL",
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "unknown"
+      },
+      "timeline": {
+        "construction_start": null,
+        "commercial_service": "2023",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": null,
+        "station": null,
+        "connection": null,
+        "line_length_miles": null
+      },
+      "primary_fuel": null,
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "Pilot-program BESS; guaranteed energy storage for at least ten years.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": false,
+      "parent_project_id": "existing-bess-pilot-program",
+      "related_project_ids": [],
+      "source_ids": [
+        "s8"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "trenton-bess",
+      "canonical_name": "Trenton BESS",
+      "aliases": [],
+      "entity_type": "project",
+      "infrastructure_type": "storage",
+      "category": "existing pilot BESS",
+      "subtype": "battery storage",
+      "technology": "battery energy storage",
+      "status": "in service",
+      "capacity": {
+        "nameplate_mw": 11,
+        "summer_mw": null,
+        "winter_mw": null,
+        "storage_mwh": 10.1
+      },
+      "location": {
+        "county": null,
+        "state": "FL",
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "unknown"
+      },
+      "timeline": {
+        "construction_start": null,
+        "commercial_service": "2023",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": null,
+        "station": null,
+        "connection": null,
+        "line_length_miles": null
+      },
+      "primary_fuel": null,
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "Pilot-program BESS.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": false,
+      "parent_project_id": "existing-bess-pilot-program",
+      "related_project_ids": [],
+      "source_ids": [
+        "s8"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "micanopy-bess",
+      "canonical_name": "Micanopy BESS",
+      "aliases": [],
+      "entity_type": "project",
+      "infrastructure_type": "storage",
+      "category": "existing pilot BESS",
+      "subtype": "battery storage",
+      "technology": "battery energy storage",
+      "status": "in service",
+      "capacity": {
+        "nameplate_mw": 8.25,
+        "summer_mw": null,
+        "winter_mw": null,
+        "storage_mwh": 11.7
+      },
+      "location": {
+        "county": null,
+        "state": "FL",
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "unknown"
+      },
+      "timeline": {
+        "construction_start": null,
+        "commercial_service": "2023",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": null,
+        "station": null,
+        "connection": null,
+        "line_length_miles": null
+      },
+      "primary_fuel": null,
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "Pilot-program BESS.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": false,
+      "parent_project_id": "existing-bess-pilot-program",
+      "related_project_ids": [],
+      "source_ids": [
+        "s8"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "jennings-bess",
+      "canonical_name": "Jennings BESS",
+      "aliases": [],
+      "entity_type": "project",
+      "infrastructure_type": "storage",
+      "category": "existing pilot BESS",
+      "subtype": "battery storage",
+      "technology": "battery energy storage",
+      "status": "in service",
+      "capacity": {
+        "nameplate_mw": 5.5,
+        "summer_mw": null,
+        "winter_mw": null,
+        "storage_mwh": 5.5
+      },
+      "location": {
+        "county": null,
+        "state": "FL",
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "unknown"
+      },
+      "timeline": {
+        "construction_start": null,
+        "commercial_service": "2023",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": null,
+        "station": null,
+        "connection": null,
+        "line_length_miles": null
+      },
+      "primary_fuel": null,
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "Pilot-program BESS.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": false,
+      "parent_project_id": "existing-bess-pilot-program",
+      "related_project_ids": [],
+      "source_ids": [
+        "s8"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "john-hopkins-bess",
+      "canonical_name": "John Hopkins Middle School BESS",
+      "aliases": [],
+      "entity_type": "project",
+      "infrastructure_type": "storage",
+      "category": "existing pilot BESS",
+      "subtype": "battery storage",
+      "technology": "battery energy storage",
+      "status": "in service",
+      "capacity": {
+        "nameplate_mw": 2.475,
+        "summer_mw": null,
+        "winter_mw": null,
+        "storage_mwh": 18
+      },
+      "location": {
+        "county": null,
+        "state": "FL",
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "unknown"
+      },
+      "timeline": {
+        "construction_start": null,
+        "commercial_service": "2023",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": null,
+        "station": null,
+        "connection": null,
+        "line_length_miles": null
+      },
+      "primary_fuel": null,
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "Pilot-program BESS.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": false,
+      "parent_project_id": "existing-bess-pilot-program",
+      "related_project_ids": [],
+      "source_ids": [
+        "s8"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "lake-placid-bess",
+      "canonical_name": "Lake Placid BESS",
+      "aliases": [],
+      "entity_type": "project",
+      "infrastructure_type": "storage",
+      "category": "existing pilot BESS",
+      "subtype": "battery storage",
+      "technology": "battery energy storage",
+      "status": "in service",
+      "capacity": {
+        "nameplate_mw": 17.275,
+        "summer_mw": null,
+        "winter_mw": null,
+        "storage_mwh": 34
+      },
+      "location": {
+        "county": "Highlands",
+        "state": "FL",
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "county_only"
+      },
+      "timeline": {
+        "construction_start": null,
+        "commercial_service": "2023",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": null,
+        "station": null,
+        "connection": null,
+        "line_length_miles": null
+      },
+      "primary_fuel": null,
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "Pilot-program BESS.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": false,
+      "parent_project_id": "existing-bess-pilot-program",
+      "related_project_ids": [],
+      "source_ids": [
+        "s8"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "suwannee-nas-bess",
+      "canonical_name": "Suwannee Sodium-Sulfur BESS",
+      "aliases": [
+        "Suwannee Project"
+      ],
+      "entity_type": "project",
+      "infrastructure_type": "storage",
+      "category": "existing long-duration battery storage pilot",
+      "subtype": "8-hour non-lithium electrochemical BESS",
+      "technology": "sodium sulfur (NaS)",
+      "status": "in service",
+      "capacity": {
+        "nameplate_mw": 5,
+        "summer_mw": null,
+        "winter_mw": null,
+        "storage_mwh": 40
+      },
+      "location": {
+        "county": "Suwannee",
+        "state": "FL",
+        "address": "Existing Suwannee Combustion Turbine generating site",
+        "latitude": null,
+        "longitude": null,
+        "location_source": "explicit_address"
+      },
+      "timeline": {
+        "construction_start": null,
+        "commercial_service": "2025",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": null,
+        "station": null,
+        "connection": null,
+        "line_length_miles": null
+      },
+      "primary_fuel": null,
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "Non-lithium 8-hour storage asset testing longer-duration energy storage.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": false,
+      "parent_project_id": "existing-bess-pilot-program",
+      "related_project_ids": [],
+      "source_ids": [
+        "s8"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "jumper-creek-interconnection",
+      "canonical_name": "Jumper Creek Solar Directly Associated Transmission Line",
+      "aliases": [],
+      "entity_type": "project",
+      "infrastructure_type": "transmission",
+      "category": "generation interconnection",
+      "subtype": "switching station/tie line",
+      "technology": null,
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": null,
+        "summer_mw": null,
+        "winter_mw": null,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": null,
+        "state": "FL",
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "unknown"
+      },
+      "timeline": {
+        "construction_start": "2026-04-01",
+        "commercial_service": null,
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": 230,
+        "station": "New switching station on Central Florida-to-Holder 230-kV line, approximately 18 miles from Holder",
+        "connection": "Existing transmission right-of-way",
+        "line_length_miles": 0.1
+      },
+      "primary_fuel": null,
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "One 230-kV directly associated line/switching-station project; stated capital investment $3.8 million.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": false,
+      "parent_project_id": null,
+      "related_project_ids": [
+        "jumper-creek-solar"
+      ],
+      "source_ids": [
+        "s7"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "bailey-mill-interconnection",
+      "canonical_name": "Bailey Mill Solar Directly Associated Transmission Line",
+      "aliases": [],
+      "entity_type": "project",
+      "infrastructure_type": "transmission",
+      "category": "generation interconnection",
+      "subtype": "tap station",
+      "technology": null,
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": null,
+        "summer_mw": null,
+        "winter_mw": null,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": null,
+        "state": "FL",
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "unknown"
+      },
+      "timeline": {
+        "construction_start": "2026-06-01",
+        "commercial_service": null,
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": 115,
+        "station": "New two-position single-breaker tap station on Drifton-to-Waukeenah line, proximate to Waukeenah Substation",
+        "connection": "Existing transmission right-of-way",
+        "line_length_miles": 0.1
+      },
+      "primary_fuel": null,
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "One 115-kV directly associated line project; capital investment $9.22 million.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": false,
+      "parent_project_id": null,
+      "related_project_ids": [
+        "bailey-mill-solar"
+      ],
+      "source_ids": [
+        "s7"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "powerline-interconnection",
+      "canonical_name": "Powerline Energy Storage Directly Associated Transmission Line",
+      "aliases": [],
+      "entity_type": "project",
+      "infrastructure_type": "transmission",
+      "category": "storage interconnection",
+      "subtype": "generation tie line",
+      "technology": null,
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": null,
+        "summer_mw": null,
+        "winter_mw": null,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": null,
+        "state": "FL",
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "unknown"
+      },
+      "timeline": {
+        "construction_start": "2026-10-26",
+        "commercial_service": null,
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": 115,
+        "station": "Powerline Substation",
+        "connection": "Existing transmission right-of-way",
+        "line_length_miles": 0.1
+      },
+      "primary_fuel": null,
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "One 115-kV directly associated transmission line; capital investment $7.32 million.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": false,
+      "parent_project_id": null,
+      "related_project_ids": [
+        "powerline-bess"
+      ],
+      "source_ids": [
+        "s7"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "turnpike-interconnection",
+      "canonical_name": "Turnpike Solar Directly Associated Transmission Line",
+      "aliases": [],
+      "entity_type": "project",
+      "infrastructure_type": "transmission",
+      "category": "generation interconnection",
+      "subtype": "switching station/tie line",
+      "technology": null,
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": null,
+        "summer_mw": null,
+        "winter_mw": null,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": null,
+        "state": "FL",
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "unknown"
+      },
+      "timeline": {
+        "construction_start": "2026-10-30",
+        "commercial_service": null,
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": 230,
+        "station": "New switching station on Holopaw-to-Canoe Creek 230-kV line",
+        "connection": "Existing transmission right-of-way",
+        "line_length_miles": 0.1
+      },
+      "primary_fuel": null,
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "One 230-kV directly associated project; capital investment $29.07 million.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": false,
+      "parent_project_id": null,
+      "related_project_ids": [
+        "turnpike-solar"
+      ],
+      "source_ids": [
+        "s7"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "lonesome-camp-interconnection",
+      "canonical_name": "Lonesome Camp Solar Directly Associated Transmission Line",
+      "aliases": [],
+      "entity_type": "project",
+      "infrastructure_type": "transmission",
+      "category": "generation interconnection",
+      "subtype": "switching station/tie line",
+      "technology": null,
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": null,
+        "summer_mw": null,
+        "winter_mw": null,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": null,
+        "state": "FL",
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "unknown"
+      },
+      "timeline": {
+        "construction_start": "2026-10-30",
+        "commercial_service": null,
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": 230,
+        "station": "New switching station on Holopaw-to-Canoe Creek 230-kV line",
+        "connection": "Existing transmission right-of-way",
+        "line_length_miles": 2.5
+      },
+      "primary_fuel": null,
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "One 230-kV directly associated project; capital investment $5.22 million.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": false,
+      "parent_project_id": null,
+      "related_project_ids": [
+        "lonesome-camp-solar"
+      ],
+      "source_ids": [
+        "s7"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "banner-interconnection",
+      "canonical_name": "Banner Solar Directly Associated Transmission Line",
+      "aliases": [],
+      "entity_type": "project",
+      "infrastructure_type": "transmission",
+      "category": "generation interconnection",
+      "subtype": "tie line",
+      "technology": null,
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": null,
+        "summer_mw": null,
+        "winter_mw": null,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": null,
+        "state": "FL",
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "unknown"
+      },
+      "timeline": {
+        "construction_start": "2027-03-01",
+        "commercial_service": null,
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": 230,
+        "station": "Radiant Substation",
+        "connection": "Existing transmission right-of-way",
+        "line_length_miles": 0.2
+      },
+      "primary_fuel": null,
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "One 230-kV directly associated project; capital investment $4.82 million.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": false,
+      "parent_project_id": null,
+      "related_project_ids": [
+        "banner-solar"
+      ],
+      "source_ids": [
+        "s7"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "higdon-interconnection",
+      "canonical_name": "Higdon Solar Directly Associated Transmission Line",
+      "aliases": [],
+      "entity_type": "project",
+      "infrastructure_type": "transmission",
+      "category": "generation interconnection",
+      "subtype": "tie line",
+      "technology": null,
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": null,
+        "summer_mw": null,
+        "winter_mw": null,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": null,
+        "state": "FL",
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "unknown"
+      },
+      "timeline": {
+        "construction_start": "2027-10-01",
+        "commercial_service": null,
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": 230,
+        "station": "Birch Switching Station",
+        "connection": "New transmission right-of-way",
+        "line_length_miles": 0.5
+      },
+      "primary_fuel": null,
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "One 230-kV directly associated project; capital investment $7.919 million.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": false,
+      "parent_project_id": null,
+      "related_project_ids": [
+        "higdon-solar"
+      ],
+      "source_ids": [
+        "s7"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "nova-interconnection",
+      "canonical_name": "Nova Solar Directly Associated Transmission Line",
+      "aliases": [],
+      "entity_type": "project",
+      "infrastructure_type": "transmission",
+      "category": "generation interconnection",
+      "subtype": "tie line",
+      "technology": null,
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": null,
+        "summer_mw": null,
+        "winter_mw": null,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": null,
+        "state": "FL",
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "unknown"
+      },
+      "timeline": {
+        "construction_start": "2027-11-01",
+        "commercial_service": null,
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": 230,
+        "station": "New DEF 230-kV Switching Station",
+        "connection": "Existing transmission right-of-way",
+        "line_length_miles": 0.1
+      },
+      "primary_fuel": null,
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "One 230-kV directly associated project; capital investment $13.614331 million.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": false,
+      "parent_project_id": null,
+      "related_project_ids": [
+        "nova-solar"
+      ],
+      "source_ids": [
+        "s7"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "bartow-bess-interconnection",
+      "canonical_name": "Bartow Energy Storage Directly Associated Transmission Line",
+      "aliases": [],
+      "entity_type": "project",
+      "infrastructure_type": "transmission",
+      "category": "storage interconnection",
+      "subtype": "generation tie line",
+      "technology": null,
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": null,
+        "summer_mw": null,
+        "winter_mw": null,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": "Pinellas",
+        "state": "FL",
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "county_only"
+      },
+      "timeline": {
+        "construction_start": "2027-12-14",
+        "commercial_service": null,
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": 230,
+        "station": "Bartow Substation",
+        "connection": "Existing transmission right-of-way",
+        "line_length_miles": 0.1
+      },
+      "primary_fuel": null,
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "One 230-kV directly associated project; capital investment $10.45 million.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": false,
+      "parent_project_id": null,
+      "related_project_ids": [
+        "bartow-bess"
+      ],
+      "source_ids": [
+        "s7"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "bull-creek-interconnection",
+      "canonical_name": "Bull Creek Solar Directly Associated Transmission Line",
+      "aliases": [],
+      "entity_type": "project",
+      "infrastructure_type": "transmission",
+      "category": "generation interconnection",
+      "subtype": "tie line",
+      "technology": null,
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": null,
+        "summer_mw": null,
+        "winter_mw": null,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": null,
+        "state": "FL",
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "unknown"
+      },
+      "timeline": {
+        "construction_start": "2028-01-01",
+        "commercial_service": null,
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": 230,
+        "station": "New DEF 230-kV Switching Station",
+        "connection": "Existing transmission right-of-way",
+        "line_length_miles": 0.1
+      },
+      "primary_fuel": null,
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "One 230-kV directly associated project; capital investment $13.614331 million.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": false,
+      "parent_project_id": null,
+      "related_project_ids": [
+        "bull-creek-solar"
+      ],
+      "source_ids": [
+        "s7"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "wewahootee-interconnection",
+      "canonical_name": "Wewahootee Solar Directly Associated Transmission Line",
+      "aliases": [],
+      "entity_type": "project",
+      "infrastructure_type": "transmission",
+      "category": "generation interconnection",
+      "subtype": "tie line",
+      "technology": null,
+      "status": "planned",
+      "capacity": {
+        "nameplate_mw": null,
+        "summer_mw": null,
+        "winter_mw": null,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": null,
+        "state": "FL",
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "unknown"
+      },
+      "timeline": {
+        "construction_start": "2028-02-01",
+        "commercial_service": null,
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": 230,
+        "station": "New DEF 230-kV Switching Station",
+        "connection": "Existing transmission right-of-way",
+        "line_length_miles": 0.1
+      },
+      "primary_fuel": null,
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "One 230-kV directly associated project; capital investment $13.617331 million.",
+      "permits": [],
+      "environmental_notes": [],
+      "is_tbd": false,
+      "parent_project_id": null,
+      "related_project_ids": [
+        "wewahootee-solar"
+      ],
+      "source_ids": [
+        "s7"
+      ],
+      "claims": [],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "project_id": "deland-west-dona-vista-line",
+      "canonical_name": "DeLand West–Dona Vista 230-kV Line",
+      "aliases": [
+        "DWDV 230 kV line"
+      ],
+      "entity_type": "project",
+      "infrastructure_type": "transmission",
+      "category": "planned TLSA bulk transmission project",
+      "subtype": "bulk transmission line",
+      "technology": null,
+      "status": "planned; certification anticipated",
+      "capacity": {
+        "nameplate_mw": null,
+        "summer_mw": null,
+        "winter_mw": null,
+        "storage_mwh": null
+      },
+      "location": {
+        "county": null,
+        "state": "FL",
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "location_source": "unknown"
+      },
+      "timeline": {
+        "construction_start": null,
+        "commercial_service": "2030-01-31",
+        "retirement_date": null
+      },
+      "interconnection": {
+        "voltage_kv": 230,
+        "station": "DeLand West to Dona Vista",
+        "connection": "DEF-owned bulk transmission line",
+        "line_length_miles": 26.5
+      },
+      "primary_fuel": null,
+      "alternate_fuel": null,
+      "acreage": null,
+      "description": "TLSA project rated 1,000 MVA in winter; DEF filed need petition June 9, 2025 and expected certification order January 2026.",
+      "permits": [
+        "TLSA certification petition, FPSC Docket No. 20250078-EI"
+      ],
+      "environmental_notes": [],
+      "is_tbd": false,
+      "parent_project_id": null,
+      "related_project_ids": [],
+      "source_ids": [
+        "s9"
+      ],
+      "claims": [
+        {
+          "field": "winter_rating",
+          "value_text": null,
+          "value_number": 1000,
+          "unit": "MVA",
+          "capacity_type": "other",
+          "scope": "transmission",
+          "scope_key": "winter rating",
+          "source_ids": [
+            "s9"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "conflicts": [],
+      "confidence": "high",
+      "warnings": []
+    }
+  ],
+  "plan_events": [
+    {
+      "event_id": "ev-hines3-upgrade",
+      "project_id": "hines-3-upgrade",
+      "asset_name": "Hines 3",
+      "event_type": "capacity_increase",
+      "applies_to": "generation",
+      "capacity": {
+        "value": 45,
+        "unit": "MW",
+        "capacity_type": "capacity_increase"
+      },
+      "effective_date": "2026-05",
+      "description": "Combined-cycle heat-rate upgrade; Schedule 8 shows 45 MW summer and winter firm increase.",
+      "source_ids": [
+        "s4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "ev-hines4-upgrade",
+      "project_id": "hines-4-upgrade",
+      "asset_name": "Hines 4",
+      "event_type": "capacity_increase",
+      "applies_to": "generation",
+      "capacity": {
+        "value": 22,
+        "unit": "MW",
+        "capacity_type": "capacity_increase"
+      },
+      "effective_date": "2026-12",
+      "description": "Combined-cycle heat-rate upgrade; 22 MW summer and 14 MW winter firm increase.",
+      "source_ids": [
+        "s4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "ev-bartow-cc-limit-lift",
+      "project_id": "p-l-bartow-4",
+      "asset_name": "P. L. Bartow 4",
+      "event_type": "capacity_increase",
+      "applies_to": "generation",
+      "capacity": {
+        "value": 122,
+        "unit": "MW",
+        "capacity_type": "winter"
+      },
+      "effective_date": "2028-01",
+      "description": "Interconnection agreement lifts Bartow Combined Cycle limitation, increasing winter capacity.",
+      "source_ids": [
+        "s4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "ev-orange-cogen-expiration",
+      "project_id": "orange-cogen-contract",
+      "asset_name": "Orange Cogen (CFR-Biogen) Contract",
+      "event_type": "contract_expiration",
+      "applies_to": "contract",
+      "capacity": {
+        "value": 104,
+        "unit": "MW",
+        "capacity_type": "summer"
+      },
+      "effective_date": "2025-12-31",
+      "description": "Firm renewable/cogeneration contract expiration.",
+      "source_ids": [
+        "s11"
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "ev-bayboro-retirement",
+      "project_id": "bayboro-ct-group",
+      "asset_name": "Bayboro P1, P2 and P4",
+      "event_type": "retirement",
+      "applies_to": "generation",
+      "capacity": {
+        "value": 97,
+        "unit": "MW",
+        "capacity_type": "summer"
+      },
+      "effective_date": "2026-09",
+      "description": "Retires 97 MW summer and 139 MW winter capacity.",
+      "source_ids": [
+        "s4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "ev-bartow-ct-retirement",
+      "project_id": "bartow-ct-p1-p4",
+      "asset_name": "Bartow P1-P4",
+      "event_type": "retirement",
+      "applies_to": "generation",
+      "capacity": {
+        "value": 168,
+        "unit": "MW",
+        "capacity_type": "summer"
+      },
+      "effective_date": "2034-06",
+      "description": "Retirement of Bartow CT P1-P4; Schedule 8 reports 212 MW winter capacity removed.",
+      "source_ids": [
+        "s5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "ev-debary-retirement",
+      "project_id": "debary-ct-p2-p6",
+      "asset_name": "DeBary P2-P6",
+      "event_type": "retirement",
+      "applies_to": "generation",
+      "capacity": {
+        "value": 227,
+        "unit": "MW",
+        "capacity_type": "summer"
+      },
+      "effective_date": "2034-06",
+      "description": "Retires 227 MW summer and 292 MW winter capacity.",
+      "source_ids": [
+        "s5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "ev-intercession-retirement",
+      "project_id": "intercession-city-ct-p4-p6",
+      "asset_name": "Intercession City P4-P6",
+      "event_type": "retirement",
+      "applies_to": "generation",
+      "capacity": {
+        "value": 138,
+        "unit": "MW",
+        "capacity_type": "summer"
+      },
+      "effective_date": "2034-06",
+      "description": "Retires 138 MW summer and 179 MW winter capacity.",
+      "source_ids": [
+        "s5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "ev-crystal-river-retirement",
+      "project_id": "crystal-river-4-5",
+      "asset_name": "Crystal River 4 and 5",
+      "event_type": "retirement",
+      "applies_to": "generation",
+      "capacity": {
+        "value": 1422,
+        "unit": "MW",
+        "capacity_type": "summer"
+      },
+      "effective_date": "2034-06",
+      "description": "Scheduled retirement of two remaining coal units; Schedule 8 gives 1,442 MW winter capacity removed.",
+      "source_ids": [
+        "s5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "ev-solar-degradation-2026",
+      "project_id": null,
+      "asset_name": "Solar Degradation",
+      "event_type": "degradation",
+      "applies_to": "generation",
+      "capacity": {
+        "value": 4.1,
+        "unit": "MW",
+        "capacity_type": "summer"
+      },
+      "effective_date": "2026",
+      "description": "Schedule 8 solar degradation capacity decrease; winter decrease 0.4 MW.",
+      "source_ids": [
+        "s4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "ev-solar-degradation-2027",
+      "project_id": null,
+      "asset_name": "Solar Degradation",
+      "event_type": "degradation",
+      "applies_to": "generation",
+      "capacity": {
+        "value": 4.6,
+        "unit": "MW",
+        "capacity_type": "summer"
+      },
+      "effective_date": "2027",
+      "description": "Schedule 8 solar degradation capacity decrease; winter decrease 0.4 MW.",
+      "source_ids": [
+        "s4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "ev-solar-degradation-2028",
+      "project_id": null,
+      "asset_name": "Solar Degradation",
+      "event_type": "degradation",
+      "applies_to": "generation",
+      "capacity": {
+        "value": 5,
+        "unit": "MW",
+        "capacity_type": "summer"
+      },
+      "effective_date": "2028",
+      "description": "Schedule 8 solar degradation capacity decrease; winter decrease 0.5 MW.",
+      "source_ids": [
+        "s4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "ev-solar-degradation-2029",
+      "project_id": null,
+      "asset_name": "Solar Degradation",
+      "event_type": "degradation",
+      "applies_to": "generation",
+      "capacity": {
+        "value": 6,
+        "unit": "MW",
+        "capacity_type": "summer"
+      },
+      "effective_date": "2029",
+      "description": "Schedule 8 solar degradation capacity decrease; winter decrease 0.6 MW.",
+      "source_ids": [
+        "s4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "ev-solar-degradation-2030",
+      "project_id": null,
+      "asset_name": "Solar Degradation",
+      "event_type": "degradation",
+      "applies_to": "generation",
+      "capacity": {
+        "value": 6.6,
+        "unit": "MW",
+        "capacity_type": "summer"
+      },
+      "effective_date": "2030",
+      "description": "Schedule 8 solar degradation capacity decrease; winter decrease 0.8 MW.",
+      "source_ids": [
+        "s5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "ev-solar-degradation-2031",
+      "project_id": null,
+      "asset_name": "Solar Degradation",
+      "event_type": "degradation",
+      "applies_to": "generation",
+      "capacity": {
+        "value": 7.1,
+        "unit": "MW",
+        "capacity_type": "summer"
+      },
+      "effective_date": "2031",
+      "description": "Schedule 8 solar degradation capacity decrease; winter decrease 0.7 MW.",
+      "source_ids": [
+        "s5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "ev-solar-degradation-2032",
+      "project_id": null,
+      "asset_name": "Solar Degradation",
+      "event_type": "degradation",
+      "applies_to": "generation",
+      "capacity": {
+        "value": 7.7,
+        "unit": "MW",
+        "capacity_type": "summer"
+      },
+      "effective_date": "2032",
+      "description": "Schedule 8 solar degradation capacity decrease; winter decrease 1.1 MW.",
+      "source_ids": [
+        "s5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "ev-solar-degradation-2033",
+      "project_id": null,
+      "asset_name": "Solar Degradation",
+      "event_type": "degradation",
+      "applies_to": "generation",
+      "capacity": {
+        "value": 8.2,
+        "unit": "MW",
+        "capacity_type": "summer"
+      },
+      "effective_date": "2033",
+      "description": "Schedule 8 solar degradation capacity decrease; winter decrease 1.3 MW.",
+      "source_ids": [
+        "s5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "ev-solar-degradation-2034",
+      "project_id": null,
+      "asset_name": "Solar Degradation",
+      "event_type": "degradation",
+      "applies_to": "generation",
+      "capacity": {
+        "value": 8.6,
+        "unit": "MW",
+        "capacity_type": "summer"
+      },
+      "effective_date": "2034",
+      "description": "Schedule 8 solar degradation capacity decrease; winter decrease 0.7 MW.",
+      "source_ids": [
+        "s5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "ev-solar-degradation-2035",
+      "project_id": null,
+      "asset_name": "Solar Degradation",
+      "event_type": "degradation",
+      "applies_to": "generation",
+      "capacity": {
+        "value": 9.1,
+        "unit": "MW",
+        "capacity_type": "summer"
+      },
+      "effective_date": "2035",
+      "description": "Schedule 8 solar degradation capacity decrease; winter decrease 1.4 MW.",
+      "source_ids": [
+        "s5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "event_id": "ev-dwdv-cod",
+      "project_id": "deland-west-dona-vista-line",
+      "asset_name": "DeLand West–Dona Vista 230-kV Line",
+      "event_type": "commercial_service",
+      "applies_to": "transmission",
+      "capacity": {
+        "value": 1000,
+        "unit": "MW",
+        "capacity_type": "other"
+      },
+      "effective_date": "2030-01-31",
+      "description": "Planned commercial in-service; document actually states a 1,000-MVA winter rating.",
+      "source_ids": [
+        "s9"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "event_id": "jumper-creek-solar-construction-start-2025-05-derived",
+      "project_id": "jumper-creek-solar",
+      "event_type": "construction_start",
+      "effective_date": "2025-05",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "jumper-creek-solar has a normalized construction-start milestone of 2025-05.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "jumper-creek-solar-commercial-service-2026-05-derived",
+      "project_id": "jumper-creek-solar",
+      "event_type": "commercial_service",
+      "effective_date": "2026-05",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "jumper-creek-solar has a normalized commercial-service milestone of 2026-05.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "bailey-mill-solar-construction-start-2025-09-derived",
+      "project_id": "bailey-mill-solar",
+      "event_type": "construction_start",
+      "effective_date": "2025-09",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "bailey-mill-solar has a normalized construction-start milestone of 2025-09.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "bailey-mill-solar-commercial-service-2026-08-derived",
+      "project_id": "bailey-mill-solar",
+      "event_type": "commercial_service",
+      "effective_date": "2026-08",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "bailey-mill-solar has a normalized commercial-service milestone of 2026-08.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "turnpike-solar-construction-start-2026-01-derived",
+      "project_id": "turnpike-solar",
+      "event_type": "construction_start",
+      "effective_date": "2026-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "turnpike-solar has a normalized construction-start milestone of 2026-01.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "turnpike-solar-commercial-service-2027-03-derived",
+      "project_id": "turnpike-solar",
+      "event_type": "commercial_service",
+      "effective_date": "2027-03",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "turnpike-solar has a normalized commercial-service milestone of 2027-03.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "banner-solar-construction-start-2026-06-derived",
+      "project_id": "banner-solar",
+      "event_type": "construction_start",
+      "effective_date": "2026-06",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "banner-solar has a normalized construction-start milestone of 2026-06.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "banner-solar-commercial-service-2027-04-derived",
+      "project_id": "banner-solar",
+      "event_type": "commercial_service",
+      "effective_date": "2027-04",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "banner-solar has a normalized commercial-service milestone of 2027-04.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "lonesome-camp-solar-construction-start-2026-02-derived",
+      "project_id": "lonesome-camp-solar",
+      "event_type": "construction_start",
+      "effective_date": "2026-02",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "lonesome-camp-solar has a normalized construction-start milestone of 2026-02.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "lonesome-camp-solar-commercial-service-2027-05-derived",
+      "project_id": "lonesome-camp-solar",
+      "event_type": "commercial_service",
+      "effective_date": "2027-05",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "lonesome-camp-solar has a normalized commercial-service milestone of 2027-05.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "higdon-solar-construction-start-2026-09-derived",
+      "project_id": "higdon-solar",
+      "event_type": "construction_start",
+      "effective_date": "2026-09",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "higdon-solar has a normalized construction-start milestone of 2026-09.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "higdon-solar-commercial-service-2027-12-derived",
+      "project_id": "higdon-solar",
+      "event_type": "commercial_service",
+      "effective_date": "2027-12",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "higdon-solar has a normalized commercial-service milestone of 2027-12.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "nova-solar-construction-start-2026-09-derived",
+      "project_id": "nova-solar",
+      "event_type": "construction_start",
+      "effective_date": "2026-09",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "nova-solar has a normalized construction-start milestone of 2026-09.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "nova-solar-commercial-service-2027-12-derived",
+      "project_id": "nova-solar",
+      "event_type": "commercial_service",
+      "effective_date": "2027-12",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "nova-solar has a normalized commercial-service milestone of 2027-12.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "bull-creek-solar-construction-start-2026-11-derived",
+      "project_id": "bull-creek-solar",
+      "event_type": "construction_start",
+      "effective_date": "2026-11",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "bull-creek-solar has a normalized construction-start milestone of 2026-11.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "bull-creek-solar-commercial-service-2028-02-derived",
+      "project_id": "bull-creek-solar",
+      "event_type": "commercial_service",
+      "effective_date": "2028-02",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "bull-creek-solar has a normalized commercial-service milestone of 2028-02.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "wewahootee-solar-construction-start-2026-12-derived",
+      "project_id": "wewahootee-solar",
+      "event_type": "construction_start",
+      "effective_date": "2026-12",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "wewahootee-solar has a normalized construction-start milestone of 2026-12.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "wewahootee-solar-commercial-service-2028-03-derived",
+      "project_id": "wewahootee-solar",
+      "event_type": "commercial_service",
+      "effective_date": "2028-03",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "wewahootee-solar has a normalized commercial-service milestone of 2028-03.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "powerline-bess-construction-start-2026-01-derived",
+      "project_id": "powerline-bess",
+      "event_type": "construction_start",
+      "effective_date": "2026-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "powerline-bess has a normalized construction-start milestone of 2026-01.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "powerline-bess-commercial-service-2027-03-derived",
+      "project_id": "powerline-bess",
+      "event_type": "commercial_service",
+      "effective_date": "2027-03",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "powerline-bess has a normalized commercial-service milestone of 2027-03.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "bartow-bess-construction-start-2027-01-derived",
+      "project_id": "bartow-bess",
+      "event_type": "construction_start",
+      "effective_date": "2027-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "bartow-bess has a normalized construction-start milestone of 2027-01.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "bartow-bess-commercial-service-2028-10-derived",
+      "project_id": "bartow-bess",
+      "event_type": "commercial_service",
+      "effective_date": "2028-10",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "bartow-bess has a normalized commercial-service milestone of 2028-10.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "tbd-solar-2028-construction-start-2026-01-derived",
+      "project_id": "tbd-solar-2028",
+      "event_type": "construction_start",
+      "effective_date": "2026-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-solar-2028 has a normalized construction-start milestone of 2026-01.",
+      "source_ids": [
+        "s4",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "tbd-solar-2028-commercial-service-2028-06-derived",
+      "project_id": "tbd-solar-2028",
+      "event_type": "commercial_service",
+      "effective_date": "2028-06",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-solar-2028 has a normalized commercial-service milestone of 2028-06.",
+      "source_ids": [
+        "s4",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "tbd-bess-2029-construction-start-2028-03-derived",
+      "project_id": "tbd-bess-2029",
+      "event_type": "construction_start",
+      "effective_date": "2028-03",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-bess-2029 has a normalized construction-start milestone of 2028-03.",
+      "source_ids": [
+        "s4",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "tbd-bess-2029-commercial-service-2029-06-derived",
+      "project_id": "tbd-bess-2029",
+      "event_type": "commercial_service",
+      "effective_date": "2029-06",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-bess-2029 has a normalized commercial-service milestone of 2029-06.",
+      "source_ids": [
+        "s4",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "tbd-solar-2029-construction-start-2027-01-derived",
+      "project_id": "tbd-solar-2029",
+      "event_type": "construction_start",
+      "effective_date": "2027-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-solar-2029 has a normalized construction-start milestone of 2027-01.",
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "tbd-solar-2029-commercial-service-2029-06-derived",
+      "project_id": "tbd-solar-2029",
+      "event_type": "commercial_service",
+      "effective_date": "2029-06",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-solar-2029 has a normalized commercial-service milestone of 2029-06.",
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "tbd-bess-2030-construction-start-2029-03-derived",
+      "project_id": "tbd-bess-2030",
+      "event_type": "construction_start",
+      "effective_date": "2029-03",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-bess-2030 has a normalized construction-start milestone of 2029-03.",
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "tbd-bess-2030-commercial-service-2030-06-derived",
+      "project_id": "tbd-bess-2030",
+      "event_type": "commercial_service",
+      "effective_date": "2030-06",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-bess-2030 has a normalized commercial-service milestone of 2030-06.",
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "tbd-solar-2030-construction-start-2028-01-derived",
+      "project_id": "tbd-solar-2030",
+      "event_type": "construction_start",
+      "effective_date": "2028-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-solar-2030 has a normalized construction-start milestone of 2028-01.",
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "tbd-solar-2030-commercial-service-2030-06-derived",
+      "project_id": "tbd-solar-2030",
+      "event_type": "commercial_service",
+      "effective_date": "2030-06",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-solar-2030 has a normalized commercial-service milestone of 2030-06.",
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "undesignated-ct-p1-p2-construction-start-2027-01-derived",
+      "project_id": "undesignated-ct-p1-p2",
+      "event_type": "construction_start",
+      "effective_date": "2027-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "undesignated-ct-p1-p2 has a normalized construction-start milestone of 2027-01.",
+      "source_ids": [
+        "s1",
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "undesignated-ct-p1-p2-commercial-service-2031-06-derived",
+      "project_id": "undesignated-ct-p1-p2",
+      "event_type": "commercial_service",
+      "effective_date": "2031-06",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "undesignated-ct-p1-p2 has a normalized commercial-service milestone of 2031-06.",
+      "source_ids": [
+        "s1",
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "tbd-solar-2031-construction-start-2029-01-derived",
+      "project_id": "tbd-solar-2031",
+      "event_type": "construction_start",
+      "effective_date": "2029-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-solar-2031 has a normalized construction-start milestone of 2029-01.",
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "tbd-solar-2031-commercial-service-2031-06-derived",
+      "project_id": "tbd-solar-2031",
+      "event_type": "commercial_service",
+      "effective_date": "2031-06",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-solar-2031 has a normalized commercial-service milestone of 2031-06.",
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "tbd-solar-2032-construction-start-2030-01-derived",
+      "project_id": "tbd-solar-2032",
+      "event_type": "construction_start",
+      "effective_date": "2030-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-solar-2032 has a normalized construction-start milestone of 2030-01.",
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "tbd-solar-2032-commercial-service-2032-06-derived",
+      "project_id": "tbd-solar-2032",
+      "event_type": "commercial_service",
+      "effective_date": "2032-06",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-solar-2032 has a normalized commercial-service milestone of 2032-06.",
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "tbd-solar-2033-construction-start-2031-01-derived",
+      "project_id": "tbd-solar-2033",
+      "event_type": "construction_start",
+      "effective_date": "2031-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-solar-2033 has a normalized construction-start milestone of 2031-01.",
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "tbd-solar-2033-commercial-service-2033-06-derived",
+      "project_id": "tbd-solar-2033",
+      "event_type": "commercial_service",
+      "effective_date": "2033-06",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-solar-2033 has a normalized commercial-service milestone of 2033-06.",
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "tbd-bess-2034-525-construction-start-2033-03-derived",
+      "project_id": "tbd-bess-2034-525",
+      "event_type": "construction_start",
+      "effective_date": "2033-03",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-bess-2034-525 has a normalized construction-start milestone of 2033-03.",
+      "source_ids": [
+        "s5",
+        "s6",
+        "s8"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "tbd-bess-2034-525-commercial-service-2034-06-derived",
+      "project_id": "tbd-bess-2034-525",
+      "event_type": "commercial_service",
+      "effective_date": "2034-06",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-bess-2034-525 has a normalized commercial-service milestone of 2034-06.",
+      "source_ids": [
+        "s5",
+        "s6",
+        "s8"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "tbd-bess-2034-300-construction-start-2033-03-derived",
+      "project_id": "tbd-bess-2034-300",
+      "event_type": "construction_start",
+      "effective_date": "2033-03",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-bess-2034-300 has a normalized construction-start milestone of 2033-03.",
+      "source_ids": [
+        "s5",
+        "s6",
+        "s8"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "tbd-bess-2034-300-commercial-service-2034-06-derived",
+      "project_id": "tbd-bess-2034-300",
+      "event_type": "commercial_service",
+      "effective_date": "2034-06",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-bess-2034-300 has a normalized commercial-service milestone of 2034-06.",
+      "source_ids": [
+        "s5",
+        "s6",
+        "s8"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "tbd-solar-2034-construction-start-2032-01-derived",
+      "project_id": "tbd-solar-2034",
+      "event_type": "construction_start",
+      "effective_date": "2032-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-solar-2034 has a normalized construction-start milestone of 2032-01.",
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "tbd-solar-2034-commercial-service-2034-06-derived",
+      "project_id": "tbd-solar-2034",
+      "event_type": "commercial_service",
+      "effective_date": "2034-06",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-solar-2034 has a normalized commercial-service milestone of 2034-06.",
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "undesignated-ct-p3-p4-construction-start-2033-03-derived",
+      "project_id": "undesignated-ct-p3-p4",
+      "event_type": "construction_start",
+      "effective_date": "2033-03",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "undesignated-ct-p3-p4 has a normalized construction-start milestone of 2033-03.",
+      "source_ids": [
+        "s1",
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "undesignated-ct-p3-p4-commercial-service-2034-06-01-derived",
+      "project_id": "undesignated-ct-p3-p4",
+      "event_type": "commercial_service",
+      "effective_date": "2034-06-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "undesignated-ct-p3-p4 has a normalized commercial-service milestone of 2034-06-01.",
+      "source_ids": [
+        "s1",
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "tbd-solar-2035-construction-start-2033-01-derived",
+      "project_id": "tbd-solar-2035",
+      "event_type": "construction_start",
+      "effective_date": "2033-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-solar-2035 has a normalized construction-start milestone of 2033-01.",
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "tbd-solar-2035-commercial-service-2035-06-derived",
+      "project_id": "tbd-solar-2035",
+      "event_type": "commercial_service",
+      "effective_date": "2035-06",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-solar-2035 has a normalized commercial-service milestone of 2035-06.",
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "hines-3-upgrade-construction-start-2026-03-derived",
+      "project_id": "hines-3-upgrade",
+      "event_type": "construction_start",
+      "effective_date": "2026-03",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "hines-3-upgrade has a normalized construction-start milestone of 2026-03.",
+      "source_ids": [
+        "s4"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "hines-3-upgrade-commercial-service-2026-05-derived",
+      "project_id": "hines-3-upgrade",
+      "event_type": "commercial_service",
+      "effective_date": "2026-05",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "hines-3-upgrade has a normalized commercial-service milestone of 2026-05.",
+      "source_ids": [
+        "s4"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "hines-4-upgrade-construction-start-2026-10-derived",
+      "project_id": "hines-4-upgrade",
+      "event_type": "construction_start",
+      "effective_date": "2026-10",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "hines-4-upgrade has a normalized construction-start milestone of 2026-10.",
+      "source_ids": [
+        "s4"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "hines-4-upgrade-commercial-service-2026-12-derived",
+      "project_id": "hines-4-upgrade",
+      "event_type": "commercial_service",
+      "effective_date": "2026-12",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "hines-4-upgrade has a normalized commercial-service milestone of 2026-12.",
+      "source_ids": [
+        "s4"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "jumper-creek-interconnection-construction-start-2026-04-01-derived",
+      "project_id": "jumper-creek-interconnection",
+      "event_type": "construction_start",
+      "effective_date": "2026-04-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "jumper-creek-interconnection has a normalized construction-start milestone of 2026-04-01.",
+      "source_ids": [
+        "s7"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "bailey-mill-interconnection-construction-start-2026-06-01-derived",
+      "project_id": "bailey-mill-interconnection",
+      "event_type": "construction_start",
+      "effective_date": "2026-06-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "bailey-mill-interconnection has a normalized construction-start milestone of 2026-06-01.",
+      "source_ids": [
+        "s7"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "powerline-interconnection-construction-start-2026-10-26-derived",
+      "project_id": "powerline-interconnection",
+      "event_type": "construction_start",
+      "effective_date": "2026-10-26",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "powerline-interconnection has a normalized construction-start milestone of 2026-10-26.",
+      "source_ids": [
+        "s7"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "turnpike-interconnection-construction-start-2026-10-30-derived",
+      "project_id": "turnpike-interconnection",
+      "event_type": "construction_start",
+      "effective_date": "2026-10-30",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "turnpike-interconnection has a normalized construction-start milestone of 2026-10-30.",
+      "source_ids": [
+        "s7"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "lonesome-camp-interconnection-construction-start-2026-10-30-derived",
+      "project_id": "lonesome-camp-interconnection",
+      "event_type": "construction_start",
+      "effective_date": "2026-10-30",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "lonesome-camp-interconnection has a normalized construction-start milestone of 2026-10-30.",
+      "source_ids": [
+        "s7"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "banner-interconnection-construction-start-2027-03-01-derived",
+      "project_id": "banner-interconnection",
+      "event_type": "construction_start",
+      "effective_date": "2027-03-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "banner-interconnection has a normalized construction-start milestone of 2027-03-01.",
+      "source_ids": [
+        "s7"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "higdon-interconnection-construction-start-2027-10-01-derived",
+      "project_id": "higdon-interconnection",
+      "event_type": "construction_start",
+      "effective_date": "2027-10-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "higdon-interconnection has a normalized construction-start milestone of 2027-10-01.",
+      "source_ids": [
+        "s7"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "nova-interconnection-construction-start-2027-11-01-derived",
+      "project_id": "nova-interconnection",
+      "event_type": "construction_start",
+      "effective_date": "2027-11-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "nova-interconnection has a normalized construction-start milestone of 2027-11-01.",
+      "source_ids": [
+        "s7"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "bartow-bess-interconnection-construction-start-2027-12-14-derived",
+      "project_id": "bartow-bess-interconnection",
+      "event_type": "construction_start",
+      "effective_date": "2027-12-14",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "bartow-bess-interconnection has a normalized construction-start milestone of 2027-12-14.",
+      "source_ids": [
+        "s7"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "bull-creek-interconnection-construction-start-2028-01-01-derived",
+      "project_id": "bull-creek-interconnection",
+      "event_type": "construction_start",
+      "effective_date": "2028-01-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "bull-creek-interconnection has a normalized construction-start milestone of 2028-01-01.",
+      "source_ids": [
+        "s7"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "wewahootee-interconnection-construction-start-2028-02-01-derived",
+      "project_id": "wewahootee-interconnection",
+      "event_type": "construction_start",
+      "effective_date": "2028-02-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "wewahootee-interconnection has a normalized construction-start milestone of 2028-02-01.",
+      "source_ids": [
+        "s7"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    }
+  ],
+  "relationships": [
+    {
+      "from_project_id": "jumper-creek-solar",
+      "to_project_id": "jumper-creek-interconnection",
+      "relationship_type": "associated_transmission",
+      "description": "Schedule 10 identifies directly associated transmission work.",
+      "source_ids": [
+        "s7"
+      ]
+    },
+    {
+      "from_project_id": "bailey-mill-solar",
+      "to_project_id": "bailey-mill-interconnection",
+      "relationship_type": "associated_transmission",
+      "description": "Schedule 10 identifies directly associated transmission work.",
+      "source_ids": [
+        "s7"
+      ]
+    },
+    {
+      "from_project_id": "powerline-bess",
+      "to_project_id": "powerline-interconnection",
+      "relationship_type": "associated_transmission",
+      "description": "Schedule 10 identifies directly associated transmission work.",
+      "source_ids": [
+        "s7"
+      ]
+    },
+    {
+      "from_project_id": "turnpike-solar",
+      "to_project_id": "turnpike-interconnection",
+      "relationship_type": "associated_transmission",
+      "description": "Schedule 10 identifies directly associated transmission work.",
+      "source_ids": [
+        "s7"
+      ]
+    },
+    {
+      "from_project_id": "lonesome-camp-solar",
+      "to_project_id": "lonesome-camp-interconnection",
+      "relationship_type": "associated_transmission",
+      "description": "Schedule 10 identifies directly associated transmission work.",
+      "source_ids": [
+        "s7"
+      ]
+    },
+    {
+      "from_project_id": "banner-solar",
+      "to_project_id": "banner-interconnection",
+      "relationship_type": "associated_transmission",
+      "description": "Schedule 10 identifies directly associated transmission work.",
+      "source_ids": [
+        "s7"
+      ]
+    },
+    {
+      "from_project_id": "higdon-solar",
+      "to_project_id": "higdon-interconnection",
+      "relationship_type": "associated_transmission",
+      "description": "Schedule 10 identifies directly associated transmission work.",
+      "source_ids": [
+        "s7"
+      ]
+    },
+    {
+      "from_project_id": "nova-solar",
+      "to_project_id": "nova-interconnection",
+      "relationship_type": "associated_transmission",
+      "description": "Schedule 10 identifies directly associated transmission work.",
+      "source_ids": [
+        "s7"
+      ]
+    },
+    {
+      "from_project_id": "bull-creek-solar",
+      "to_project_id": "bull-creek-interconnection",
+      "relationship_type": "associated_transmission",
+      "description": "Schedule 10 identifies directly associated transmission work.",
+      "source_ids": [
+        "s7"
+      ]
+    },
+    {
+      "from_project_id": "wewahootee-solar",
+      "to_project_id": "wewahootee-interconnection",
+      "relationship_type": "associated_transmission",
+      "description": "Schedule 10 identifies directly associated transmission work.",
+      "source_ids": [
+        "s7"
+      ]
+    },
+    {
+      "from_project_id": "bartow-bess",
+      "to_project_id": "bartow-bess-interconnection",
+      "relationship_type": "associated_transmission",
+      "description": "Schedule 10 identifies directly associated transmission work.",
+      "source_ids": [
+        "s7"
+      ]
+    },
+    {
+      "from_project_id": "existing-bess-pilot-program",
+      "to_project_id": "cape-san-blas-bess",
+      "relationship_type": "parent_of",
+      "description": "Pilot-program project.",
+      "source_ids": [
+        "s8"
+      ]
+    },
+    {
+      "from_project_id": "existing-bess-pilot-program",
+      "to_project_id": "suwannee-nas-bess",
+      "relationship_type": "parent_of",
+      "description": "Pilot-program project.",
+      "source_ids": [
+        "s8"
+      ]
+    }
+  ],
+  "document_conflicts": [
+    {
+      "field": "Bull/Bulk Creek naming",
+      "description": "Chapter 4 preferred-sites list says 'Bulk Creek Solar Site'; its substantive project chapter, Schedule 8, Schedule 9, and Schedule 10 use 'Bull Creek'.",
+      "claim_source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "severity": "warning",
+      "resolution_status": "unresolved"
+    },
+    {
+      "field": "Crystal River retirement month",
+      "description": "Narrative refers to May 2034 retirement, while Schedule 1 and Schedule 8 use June 2034.",
+      "claim_source_ids": [
+        "s1",
+        "s2",
+        "s5"
+      ],
+      "severity": "warning",
+      "resolution_status": "unresolved"
+    },
+    {
+      "field": "Undesignated CT P3-P4 capacity",
+      "description": "Schedule 8 and Schedule 9 materially disagree on the planned CT group's seasonal capacity.",
+      "claim_source_ids": [
+        "s5",
+        "s6"
+      ],
+      "severity": "critical",
+      "resolution_status": "unresolved"
+    }
+  ],
+  "extraction_notes": [
+    "Schedule 8 additions were reconciled to Schedule 9 facility sheets and Chapter 4 preferred-site descriptions where named projects overlapped.",
+    "Every Schedule 8 construction, commercial-service, retirement, upgrade, contract expiration, and solar-degradation row represented above has a corresponding plan event, except individual construction/commercial-service events for proposed resources that are stored in project timelines but omitted from the event array due to output-size limitations.",
+    "The document identifies 27 existing DEF-owned solar facilities in Schedule 1 and Chapters 3.54-3.56. They are not restated as individual entities here because the supplied output concentrates entity-level records on future actions, existing assets with scheduled changes, and separately identified pilot storage assets."
+  ],
+  "unresolved_items": [
+    "Storage-energy MWh values are not supplied for the five TBD BESS groups planned for 2029, 2030, and 2034.",
+    "The locations and interconnection facilities for all TBD solar, storage, and CT planning groups remain unspecified.",
+    "Existing generation assets without a planning-period change, including the full Schedule 1 fleet, should be loaded separately if a complete baseline asset register is required."
+  ],
+  "normalization_notes": [
+    "Derived 65 plan event(s) from normalized entity timeline fields.",
+    "Skipped 9 historical commercial-service milestone(s) that predate the document planning period.",
+    "Skipped 1 contract retirement milestone(s) because contract timeline dates must not be automatically interpreted as physical asset retirements.",
+    "Timeline-to-plan-event coverage check passed."
+  ],
+  "removed_relationships": [],
+  "derived_plan_events": [
+    {
+      "event_id": "jumper-creek-solar-construction-start-2025-05-derived",
+      "project_id": "jumper-creek-solar",
+      "event_type": "construction_start",
+      "effective_date": "2025-05",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "jumper-creek-solar has a normalized construction-start milestone of 2025-05.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "jumper-creek-solar-commercial-service-2026-05-derived",
+      "project_id": "jumper-creek-solar",
+      "event_type": "commercial_service",
+      "effective_date": "2026-05",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "jumper-creek-solar has a normalized commercial-service milestone of 2026-05.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "bailey-mill-solar-construction-start-2025-09-derived",
+      "project_id": "bailey-mill-solar",
+      "event_type": "construction_start",
+      "effective_date": "2025-09",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "bailey-mill-solar has a normalized construction-start milestone of 2025-09.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "bailey-mill-solar-commercial-service-2026-08-derived",
+      "project_id": "bailey-mill-solar",
+      "event_type": "commercial_service",
+      "effective_date": "2026-08",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "bailey-mill-solar has a normalized commercial-service milestone of 2026-08.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "turnpike-solar-construction-start-2026-01-derived",
+      "project_id": "turnpike-solar",
+      "event_type": "construction_start",
+      "effective_date": "2026-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "turnpike-solar has a normalized construction-start milestone of 2026-01.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "turnpike-solar-commercial-service-2027-03-derived",
+      "project_id": "turnpike-solar",
+      "event_type": "commercial_service",
+      "effective_date": "2027-03",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "turnpike-solar has a normalized commercial-service milestone of 2027-03.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "banner-solar-construction-start-2026-06-derived",
+      "project_id": "banner-solar",
+      "event_type": "construction_start",
+      "effective_date": "2026-06",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "banner-solar has a normalized construction-start milestone of 2026-06.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "banner-solar-commercial-service-2027-04-derived",
+      "project_id": "banner-solar",
+      "event_type": "commercial_service",
+      "effective_date": "2027-04",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "banner-solar has a normalized commercial-service milestone of 2027-04.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "lonesome-camp-solar-construction-start-2026-02-derived",
+      "project_id": "lonesome-camp-solar",
+      "event_type": "construction_start",
+      "effective_date": "2026-02",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "lonesome-camp-solar has a normalized construction-start milestone of 2026-02.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "lonesome-camp-solar-commercial-service-2027-05-derived",
+      "project_id": "lonesome-camp-solar",
+      "event_type": "commercial_service",
+      "effective_date": "2027-05",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "lonesome-camp-solar has a normalized commercial-service milestone of 2027-05.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "higdon-solar-construction-start-2026-09-derived",
+      "project_id": "higdon-solar",
+      "event_type": "construction_start",
+      "effective_date": "2026-09",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "higdon-solar has a normalized construction-start milestone of 2026-09.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "higdon-solar-commercial-service-2027-12-derived",
+      "project_id": "higdon-solar",
+      "event_type": "commercial_service",
+      "effective_date": "2027-12",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "higdon-solar has a normalized commercial-service milestone of 2027-12.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "nova-solar-construction-start-2026-09-derived",
+      "project_id": "nova-solar",
+      "event_type": "construction_start",
+      "effective_date": "2026-09",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "nova-solar has a normalized construction-start milestone of 2026-09.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "nova-solar-commercial-service-2027-12-derived",
+      "project_id": "nova-solar",
+      "event_type": "commercial_service",
+      "effective_date": "2027-12",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "nova-solar has a normalized commercial-service milestone of 2027-12.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "bull-creek-solar-construction-start-2026-11-derived",
+      "project_id": "bull-creek-solar",
+      "event_type": "construction_start",
+      "effective_date": "2026-11",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "bull-creek-solar has a normalized construction-start milestone of 2026-11.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "bull-creek-solar-commercial-service-2028-02-derived",
+      "project_id": "bull-creek-solar",
+      "event_type": "commercial_service",
+      "effective_date": "2028-02",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "bull-creek-solar has a normalized commercial-service milestone of 2028-02.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "wewahootee-solar-construction-start-2026-12-derived",
+      "project_id": "wewahootee-solar",
+      "event_type": "construction_start",
+      "effective_date": "2026-12",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "wewahootee-solar has a normalized construction-start milestone of 2026-12.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "wewahootee-solar-commercial-service-2028-03-derived",
+      "project_id": "wewahootee-solar",
+      "event_type": "commercial_service",
+      "effective_date": "2028-03",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "wewahootee-solar has a normalized commercial-service milestone of 2028-03.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "powerline-bess-construction-start-2026-01-derived",
+      "project_id": "powerline-bess",
+      "event_type": "construction_start",
+      "effective_date": "2026-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "powerline-bess has a normalized construction-start milestone of 2026-01.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "powerline-bess-commercial-service-2027-03-derived",
+      "project_id": "powerline-bess",
+      "event_type": "commercial_service",
+      "effective_date": "2027-03",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "powerline-bess has a normalized commercial-service milestone of 2027-03.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "bartow-bess-construction-start-2027-01-derived",
+      "project_id": "bartow-bess",
+      "event_type": "construction_start",
+      "effective_date": "2027-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "bartow-bess has a normalized construction-start milestone of 2027-01.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "bartow-bess-commercial-service-2028-10-derived",
+      "project_id": "bartow-bess",
+      "event_type": "commercial_service",
+      "effective_date": "2028-10",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "bartow-bess has a normalized commercial-service milestone of 2028-10.",
+      "source_ids": [
+        "s4",
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "tbd-solar-2028-construction-start-2026-01-derived",
+      "project_id": "tbd-solar-2028",
+      "event_type": "construction_start",
+      "effective_date": "2026-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-solar-2028 has a normalized construction-start milestone of 2026-01.",
+      "source_ids": [
+        "s4",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "tbd-solar-2028-commercial-service-2028-06-derived",
+      "project_id": "tbd-solar-2028",
+      "event_type": "commercial_service",
+      "effective_date": "2028-06",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-solar-2028 has a normalized commercial-service milestone of 2028-06.",
+      "source_ids": [
+        "s4",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "tbd-bess-2029-construction-start-2028-03-derived",
+      "project_id": "tbd-bess-2029",
+      "event_type": "construction_start",
+      "effective_date": "2028-03",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-bess-2029 has a normalized construction-start milestone of 2028-03.",
+      "source_ids": [
+        "s4",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "tbd-bess-2029-commercial-service-2029-06-derived",
+      "project_id": "tbd-bess-2029",
+      "event_type": "commercial_service",
+      "effective_date": "2029-06",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-bess-2029 has a normalized commercial-service milestone of 2029-06.",
+      "source_ids": [
+        "s4",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "tbd-solar-2029-construction-start-2027-01-derived",
+      "project_id": "tbd-solar-2029",
+      "event_type": "construction_start",
+      "effective_date": "2027-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-solar-2029 has a normalized construction-start milestone of 2027-01.",
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "tbd-solar-2029-commercial-service-2029-06-derived",
+      "project_id": "tbd-solar-2029",
+      "event_type": "commercial_service",
+      "effective_date": "2029-06",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-solar-2029 has a normalized commercial-service milestone of 2029-06.",
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "tbd-bess-2030-construction-start-2029-03-derived",
+      "project_id": "tbd-bess-2030",
+      "event_type": "construction_start",
+      "effective_date": "2029-03",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-bess-2030 has a normalized construction-start milestone of 2029-03.",
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "tbd-bess-2030-commercial-service-2030-06-derived",
+      "project_id": "tbd-bess-2030",
+      "event_type": "commercial_service",
+      "effective_date": "2030-06",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-bess-2030 has a normalized commercial-service milestone of 2030-06.",
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "tbd-solar-2030-construction-start-2028-01-derived",
+      "project_id": "tbd-solar-2030",
+      "event_type": "construction_start",
+      "effective_date": "2028-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-solar-2030 has a normalized construction-start milestone of 2028-01.",
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "tbd-solar-2030-commercial-service-2030-06-derived",
+      "project_id": "tbd-solar-2030",
+      "event_type": "commercial_service",
+      "effective_date": "2030-06",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-solar-2030 has a normalized commercial-service milestone of 2030-06.",
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "undesignated-ct-p1-p2-construction-start-2027-01-derived",
+      "project_id": "undesignated-ct-p1-p2",
+      "event_type": "construction_start",
+      "effective_date": "2027-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "undesignated-ct-p1-p2 has a normalized construction-start milestone of 2027-01.",
+      "source_ids": [
+        "s1",
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "undesignated-ct-p1-p2-commercial-service-2031-06-derived",
+      "project_id": "undesignated-ct-p1-p2",
+      "event_type": "commercial_service",
+      "effective_date": "2031-06",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "undesignated-ct-p1-p2 has a normalized commercial-service milestone of 2031-06.",
+      "source_ids": [
+        "s1",
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "tbd-solar-2031-construction-start-2029-01-derived",
+      "project_id": "tbd-solar-2031",
+      "event_type": "construction_start",
+      "effective_date": "2029-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-solar-2031 has a normalized construction-start milestone of 2029-01.",
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "tbd-solar-2031-commercial-service-2031-06-derived",
+      "project_id": "tbd-solar-2031",
+      "event_type": "commercial_service",
+      "effective_date": "2031-06",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-solar-2031 has a normalized commercial-service milestone of 2031-06.",
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "tbd-solar-2032-construction-start-2030-01-derived",
+      "project_id": "tbd-solar-2032",
+      "event_type": "construction_start",
+      "effective_date": "2030-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-solar-2032 has a normalized construction-start milestone of 2030-01.",
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "tbd-solar-2032-commercial-service-2032-06-derived",
+      "project_id": "tbd-solar-2032",
+      "event_type": "commercial_service",
+      "effective_date": "2032-06",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-solar-2032 has a normalized commercial-service milestone of 2032-06.",
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "tbd-solar-2033-construction-start-2031-01-derived",
+      "project_id": "tbd-solar-2033",
+      "event_type": "construction_start",
+      "effective_date": "2031-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-solar-2033 has a normalized construction-start milestone of 2031-01.",
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "tbd-solar-2033-commercial-service-2033-06-derived",
+      "project_id": "tbd-solar-2033",
+      "event_type": "commercial_service",
+      "effective_date": "2033-06",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-solar-2033 has a normalized commercial-service milestone of 2033-06.",
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "tbd-bess-2034-525-construction-start-2033-03-derived",
+      "project_id": "tbd-bess-2034-525",
+      "event_type": "construction_start",
+      "effective_date": "2033-03",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-bess-2034-525 has a normalized construction-start milestone of 2033-03.",
+      "source_ids": [
+        "s5",
+        "s6",
+        "s8"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "tbd-bess-2034-525-commercial-service-2034-06-derived",
+      "project_id": "tbd-bess-2034-525",
+      "event_type": "commercial_service",
+      "effective_date": "2034-06",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-bess-2034-525 has a normalized commercial-service milestone of 2034-06.",
+      "source_ids": [
+        "s5",
+        "s6",
+        "s8"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "tbd-bess-2034-300-construction-start-2033-03-derived",
+      "project_id": "tbd-bess-2034-300",
+      "event_type": "construction_start",
+      "effective_date": "2033-03",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-bess-2034-300 has a normalized construction-start milestone of 2033-03.",
+      "source_ids": [
+        "s5",
+        "s6",
+        "s8"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "tbd-bess-2034-300-commercial-service-2034-06-derived",
+      "project_id": "tbd-bess-2034-300",
+      "event_type": "commercial_service",
+      "effective_date": "2034-06",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-bess-2034-300 has a normalized commercial-service milestone of 2034-06.",
+      "source_ids": [
+        "s5",
+        "s6",
+        "s8"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "tbd-solar-2034-construction-start-2032-01-derived",
+      "project_id": "tbd-solar-2034",
+      "event_type": "construction_start",
+      "effective_date": "2032-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-solar-2034 has a normalized construction-start milestone of 2032-01.",
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "tbd-solar-2034-commercial-service-2034-06-derived",
+      "project_id": "tbd-solar-2034",
+      "event_type": "commercial_service",
+      "effective_date": "2034-06",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-solar-2034 has a normalized commercial-service milestone of 2034-06.",
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "undesignated-ct-p3-p4-construction-start-2033-03-derived",
+      "project_id": "undesignated-ct-p3-p4",
+      "event_type": "construction_start",
+      "effective_date": "2033-03",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "undesignated-ct-p3-p4 has a normalized construction-start milestone of 2033-03.",
+      "source_ids": [
+        "s1",
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "undesignated-ct-p3-p4-commercial-service-2034-06-01-derived",
+      "project_id": "undesignated-ct-p3-p4",
+      "event_type": "commercial_service",
+      "effective_date": "2034-06-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "undesignated-ct-p3-p4 has a normalized commercial-service milestone of 2034-06-01.",
+      "source_ids": [
+        "s1",
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "tbd-solar-2035-construction-start-2033-01-derived",
+      "project_id": "tbd-solar-2035",
+      "event_type": "construction_start",
+      "effective_date": "2033-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-solar-2035 has a normalized construction-start milestone of 2033-01.",
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "tbd-solar-2035-commercial-service-2035-06-derived",
+      "project_id": "tbd-solar-2035",
+      "event_type": "commercial_service",
+      "effective_date": "2035-06",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "tbd-solar-2035 has a normalized commercial-service milestone of 2035-06.",
+      "source_ids": [
+        "s5",
+        "s6"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "hines-3-upgrade-construction-start-2026-03-derived",
+      "project_id": "hines-3-upgrade",
+      "event_type": "construction_start",
+      "effective_date": "2026-03",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "hines-3-upgrade has a normalized construction-start milestone of 2026-03.",
+      "source_ids": [
+        "s4"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "hines-3-upgrade-commercial-service-2026-05-derived",
+      "project_id": "hines-3-upgrade",
+      "event_type": "commercial_service",
+      "effective_date": "2026-05",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "hines-3-upgrade has a normalized commercial-service milestone of 2026-05.",
+      "source_ids": [
+        "s4"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "hines-4-upgrade-construction-start-2026-10-derived",
+      "project_id": "hines-4-upgrade",
+      "event_type": "construction_start",
+      "effective_date": "2026-10",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "hines-4-upgrade has a normalized construction-start milestone of 2026-10.",
+      "source_ids": [
+        "s4"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "hines-4-upgrade-commercial-service-2026-12-derived",
+      "project_id": "hines-4-upgrade",
+      "event_type": "commercial_service",
+      "effective_date": "2026-12",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "hines-4-upgrade has a normalized commercial-service milestone of 2026-12.",
+      "source_ids": [
+        "s4"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.commercial_service"
+    },
+    {
+      "event_id": "jumper-creek-interconnection-construction-start-2026-04-01-derived",
+      "project_id": "jumper-creek-interconnection",
+      "event_type": "construction_start",
+      "effective_date": "2026-04-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "jumper-creek-interconnection has a normalized construction-start milestone of 2026-04-01.",
+      "source_ids": [
+        "s7"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "bailey-mill-interconnection-construction-start-2026-06-01-derived",
+      "project_id": "bailey-mill-interconnection",
+      "event_type": "construction_start",
+      "effective_date": "2026-06-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "bailey-mill-interconnection has a normalized construction-start milestone of 2026-06-01.",
+      "source_ids": [
+        "s7"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "powerline-interconnection-construction-start-2026-10-26-derived",
+      "project_id": "powerline-interconnection",
+      "event_type": "construction_start",
+      "effective_date": "2026-10-26",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "powerline-interconnection has a normalized construction-start milestone of 2026-10-26.",
+      "source_ids": [
+        "s7"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "turnpike-interconnection-construction-start-2026-10-30-derived",
+      "project_id": "turnpike-interconnection",
+      "event_type": "construction_start",
+      "effective_date": "2026-10-30",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "turnpike-interconnection has a normalized construction-start milestone of 2026-10-30.",
+      "source_ids": [
+        "s7"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "lonesome-camp-interconnection-construction-start-2026-10-30-derived",
+      "project_id": "lonesome-camp-interconnection",
+      "event_type": "construction_start",
+      "effective_date": "2026-10-30",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "lonesome-camp-interconnection has a normalized construction-start milestone of 2026-10-30.",
+      "source_ids": [
+        "s7"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "banner-interconnection-construction-start-2027-03-01-derived",
+      "project_id": "banner-interconnection",
+      "event_type": "construction_start",
+      "effective_date": "2027-03-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "banner-interconnection has a normalized construction-start milestone of 2027-03-01.",
+      "source_ids": [
+        "s7"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "higdon-interconnection-construction-start-2027-10-01-derived",
+      "project_id": "higdon-interconnection",
+      "event_type": "construction_start",
+      "effective_date": "2027-10-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "higdon-interconnection has a normalized construction-start milestone of 2027-10-01.",
+      "source_ids": [
+        "s7"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "nova-interconnection-construction-start-2027-11-01-derived",
+      "project_id": "nova-interconnection",
+      "event_type": "construction_start",
+      "effective_date": "2027-11-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "nova-interconnection has a normalized construction-start milestone of 2027-11-01.",
+      "source_ids": [
+        "s7"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "bartow-bess-interconnection-construction-start-2027-12-14-derived",
+      "project_id": "bartow-bess-interconnection",
+      "event_type": "construction_start",
+      "effective_date": "2027-12-14",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "bartow-bess-interconnection has a normalized construction-start milestone of 2027-12-14.",
+      "source_ids": [
+        "s7"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "bull-creek-interconnection-construction-start-2028-01-01-derived",
+      "project_id": "bull-creek-interconnection",
+      "event_type": "construction_start",
+      "effective_date": "2028-01-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "bull-creek-interconnection has a normalized construction-start milestone of 2028-01-01.",
+      "source_ids": [
+        "s7"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    },
+    {
+      "event_id": "wewahootee-interconnection-construction-start-2028-02-01-derived",
+      "project_id": "wewahootee-interconnection",
+      "event_type": "construction_start",
+      "effective_date": "2028-02-01",
+      "capacity_mw": null,
+      "capacity_type": null,
+      "description": "wewahootee-interconnection has a normalized construction-start milestone of 2028-02-01.",
+      "source_ids": [
+        "s7"
+      ],
+      "derived": true,
+      "derivation_source": "timeline.construction_start"
+    }
+  ],
+  "removed_duplicate_events": [],
+  "event_coverage_warnings": []
+}
