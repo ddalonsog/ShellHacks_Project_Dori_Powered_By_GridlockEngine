@@ -1,4 +1,4 @@
-# ⚡ GridLock — Coordinated Power Grid Infrastructure Platform
+# ⚡ Dori - Grid Planning and Coordination
 
 > **ShellHacks 2026 Project**  
 > *Real-time spatial and temporal overlap detection for power grid construction projects.*
@@ -20,7 +20,7 @@ In **2024, federal regulators (FERC Order 1920)** mandated long-term regional tr
 
 ## 🚀 Solution
 
-**GridLock** is a geospatial platform that ingests public construction plans across neighboring utilities, visualizes them on an interactive map, and automatically flags **spatial and temporal overlaps**.
+**Dori** is a geospatial platform that ingests public construction plans across neighboring utilities, visualizes them on an interactive map, and automatically flags **spatial and temporal overlaps**.
 
 By detecting projects that are physically close and scheduled within matching timeframes, GridLock enables utilities to:
 1. **Share critical resources** (heavy machinery, cranes, specialized crews, logistics).
@@ -47,9 +47,9 @@ By detecting projects that are physically close and scheduled within matching ti
 
 ## 🛠️ Tech Stack
 
-* **Frontend:** React, TypeScript, Vite, Tailwind CSS, Mapbox GL / Leaflet, Recharts.
-* **Backend:** Node.js (Express) / Python (FastAPI).
-* **Database:** PostgreSQL with **PostGIS** extension (spatial indexing using GiST / R-Tree).
+* **Frontend:** React, TypeScript
+* **Backend:** Node.js (Express)
+* **Database:** PostgreSQL
 * **Containerization:** Docker & Docker Compose.
 
 ---
