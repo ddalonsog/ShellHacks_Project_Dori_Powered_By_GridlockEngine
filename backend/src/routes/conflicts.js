@@ -40,7 +40,7 @@ router.get('/', async (req, res) => {
   );
 
   const maxYearGap = Number(
-    req.query.maxYearGap ?? 2
+    req.query.maxYearGap ?? 10
   );
 
   const minOverlapDays = Number(
