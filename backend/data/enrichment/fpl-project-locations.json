@@ -1,0 +1,182 @@
+{
+  "utility": "Florida Power & Light Company",
+  "state": "FL",
+  "purpose": "Manual location enrichment for GridLock. These coordinates are external enrichment and do not modify the original AI extraction artifacts.",
+  "notes": [
+    "Coordinates are reported plant points, not surveyed project boundaries.",
+    "Named BESS/site assets may be adjacent to the reported solar plant point; the importer labels such updates as enrichment rather than original-document coordinates.",
+    "Saddle (EIA 68826) is intentionally excluded because the public record currently reports the same point as Pinecone; verify before using it for distance scoring."
+  ],
+  "locations": [
+    {
+      "match_name": "Sea Grape",
+      "eia_plant_id": 68819,
+      "latitude": 27.452435,
+      "longitude": -80.563974,
+      "county": "St. Lucie",
+      "precision": "eia_reported_point",
+      "source": "EIA-derived public plant record",
+      "apply_to_named_site_assets": true
+    },
+    {
+      "match_name": "North Orange",
+      "eia_plant_id": 65883,
+      "latitude": 27.51422,
+      "longitude": -80.57074,
+      "county": "St. Lucie",
+      "precision": "eia_reported_point",
+      "source": "EIA-derived public plant record",
+      "apply_to_named_site_assets": true
+    },
+    {
+      "match_name": "Clover",
+      "eia_plant_id": 68821,
+      "latitude": 27.472021,
+      "longitude": -80.51902,
+      "county": "St. Lucie",
+      "precision": "eia_reported_point",
+      "source": "EIA Form 860M-derived public plant record",
+      "apply_to_named_site_assets": true
+    },
+    {
+      "match_name": "Big Brook",
+      "eia_plant_id": 68820,
+      "latitude": 30.443398,
+      "longitude": -85.261804,
+      "county": "Calhoun",
+      "precision": "eia_reported_point",
+      "source": "EIA-derived public plant record",
+      "apply_to_named_site_assets": true
+    },
+    {
+      "match_name": "Sand Pine",
+      "eia_plant_id": 68818,
+      "latitude": 30.44763,
+      "longitude": -85.26373,
+      "county": "Calhoun",
+      "precision": "eia_reported_point",
+      "source": "EIA-derived public plant record",
+      "apply_to_named_site_assets": true
+    },
+    {
+      "match_name": "Flatford",
+      "eia_plant_id": 68822,
+      "latitude": 27.389575,
+      "longitude": -82.098881,
+      "county": "Manatee",
+      "precision": "eia_reported_point",
+      "source": "EIA-derived public plant record",
+      "apply_to_named_site_assets": true
+    },
+    {
+      "match_name": "Goldenrod",
+      "eia_plant_id": 68823,
+      "latitude": 26.480745,
+      "longitude": -81.49189,
+      "county": "Collier",
+      "precision": "eia_reported_point",
+      "source": "EIA Form 860M-derived public plant record",
+      "apply_to_named_site_assets": true
+    },
+    {
+      "match_name": "Boardwalk",
+      "eia_plant_id": 65885,
+      "latitude": 26.483507,
+      "longitude": -81.467659,
+      "county": "Collier",
+      "precision": "eia_reported_point",
+      "source": "EIA-derived public plant record",
+      "apply_to_named_site_assets": true
+    },
+    {
+      "match_name": "Mare Branch",
+      "eia_plant_id": 65905,
+      "latitude": 27.30365,
+      "longitude": -81.767413,
+      "county": "DeSoto",
+      "precision": "eia_reported_point",
+      "source": "EIA-derived public plant record",
+      "apply_to_named_site_assets": true
+    },
+    {
+      "match_name": "Price Creek",
+      "eia_plant_id": 65887,
+      "latitude": 30.160723,
+      "longitude": -82.55836,
+      "county": "Columbia",
+      "precision": "eia_reported_point",
+      "source": "EIA Form 860M-derived public plant record",
+      "apply_to_named_site_assets": true
+    },
+    {
+      "match_name": "Swamp Cabbage",
+      "eia_plant_id": 68276,
+      "latitude": 26.762014,
+      "longitude": -81.25302,
+      "county": "Hendry",
+      "precision": "eia_reported_point",
+      "source": "EIA Form 860M-derived public plant record",
+      "apply_to_named_site_assets": true
+    },
+    {
+      "match_name": "Mallard",
+      "eia_plant_id": 68817,
+      "latitude": 27.832062,
+      "longitude": -80.68207,
+      "county": "Brevard",
+      "precision": "eia_reported_point",
+      "source": "EIA Form 860M-derived public plant record",
+      "apply_to_named_site_assets": true
+    },
+    {
+      "match_name": "Middle Lake",
+      "eia_plant_id": 68824,
+      "latitude": 30.380511,
+      "longitude": -83.340739,
+      "county": "Madison",
+      "precision": "eia_reported_point",
+      "source": "EIA-derived public plant record",
+      "apply_to_named_site_assets": true
+    },
+    {
+      "match_name": "Pinecone",
+      "eia_plant_id": 68825,
+      "latitude": 30.439415,
+      "longitude": -85.254989,
+      "county": "Calhoun",
+      "precision": "eia_reported_point",
+      "source": "EIA-derived public plant record",
+      "apply_to_named_site_assets": true
+    },
+    {
+      "match_name": "Spanish Moss",
+      "eia_plant_id": 68827,
+      "latitude": 27.509782,
+      "longitude": -80.56447,
+      "county": "St. Lucie",
+      "precision": "eia_reported_point",
+      "source": "EIA Form 860M-derived public plant record",
+      "apply_to_named_site_assets": true
+    },
+    {
+      "match_name": "Tangelo",
+      "eia_plant_id": 68828,
+      "latitude": 27.507993,
+      "longitude": -80.73651,
+      "county": "Okeechobee",
+      "precision": "eia_reported_point",
+      "source": "EIA Form 860M-derived public plant record",
+      "apply_to_named_site_assets": true
+    },
+    {
+      "match_name": "Ambersweet",
+      "eia_plant_id": 68829,
+      "latitude": 27.567468,
+      "longitude": -80.62782,
+      "county": "Indian River",
+      "precision": "eia_reported_point",
+      "source": "EIA Form 860M-derived public plant record",
+      "apply_to_named_site_assets": true
+    }
+  ]
+}
