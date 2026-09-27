@@ -1,5 +1,6 @@
 const express = require('express');
 const pool = require('../db');
+const auth = require('../middleware/auth');
 
 const router = express.Router();
 
@@ -130,6 +131,187 @@ router.get('/', async (req, res) => {
 
     res.status(500).json({
       error: 'Failed to get projects'
+    });
+  }
+});
+
+
+// ============================================================
+// POST /api/projects
+// ============================================================
+//
+// Creates a manually entered GridLock project.
+//
+// The utility is taken from the authenticated user's JWT.
+// The frontend cannot create a project for another utility.
+//
+// ============================================================
+
+router.post('/', auth, async (req, res) => {
+  try {
+    const {
+      title,
+      category,
+      subtype,
+      voltage_kv,
+      start_date,
+      end_date,
+      status,
+      latitude,
+      longitude,
+    } = req.body;
+
+    // --------------------------------------------------------
+    // REQUIRED FIELDS
+    // --------------------------------------------------------
+
+    if (!title || !category) {
+      return res.status(400).json({
+        error: 'Project name and category are required',
+      });
+    }
+
+    if (!req.user.utilityId) {
+      return res.status(400).json({
+        error:
+          'Authenticated user is not associated with a utility',
+      });
+    }
+
+    // --------------------------------------------------------
+    // DATE VALIDATION
+    // --------------------------------------------------------
+
+    if (
+      start_date &&
+      end_date &&
+      new Date(end_date) < new Date(start_date)
+    ) {
+      return res.status(400).json({
+        error: 'End date cannot be before start date',
+      });
+    }
+
+    // --------------------------------------------------------
+    // COORDINATE VALIDATION
+    // --------------------------------------------------------
+
+    const lat = Number(latitude);
+    const lng = Number(longitude);
+
+    if (
+      !Number.isFinite(lat) ||
+      !Number.isFinite(lng) ||
+      lat < -90 ||
+      lat > 90 ||
+      lng < -180 ||
+      lng > 180
+    ) {
+      return res.status(400).json({
+        error: 'Valid latitude and longitude are required',
+      });
+    }
+
+    // --------------------------------------------------------
+    // INSERT PROJECT
+    // --------------------------------------------------------
+
+    const result = await pool.query(
+      `
+      INSERT INTO projects (
+        utility_id,
+        title,
+        category,
+        subtype,
+        voltage_kv,
+        start_date,
+        end_date,
+        start_year,
+        end_year,
+        status,
+        location_source,
+        ownership_visibility,
+        source_type,
+        geom
+      )
+      VALUES (
+        $1,
+        $2,
+        $3,
+        $4,
+        $5,
+        $6,
+        $7,
+
+        CASE
+          WHEN $6::date IS NOT NULL
+          THEN EXTRACT(YEAR FROM $6::date)::integer
+          ELSE NULL
+        END,
+
+        CASE
+          WHEN $7::date IS NOT NULL
+          THEN EXTRACT(YEAR FROM $7::date)::integer
+          ELSE NULL
+        END,
+
+        $8,
+        'manual_entry',
+        'public',
+        'manual',
+
+        ST_SetSRID(
+          ST_MakePoint($9, $10),
+          4326
+        )
+      )
+
+      RETURNING
+        id,
+        utility_id,
+        title,
+        category,
+        subtype,
+        voltage_kv,
+        start_date,
+        end_date,
+        start_year,
+        end_year,
+        status,
+        location_source,
+        ownership_visibility,
+        source_type,
+        ST_Y(geom) AS latitude,
+        ST_X(geom) AS longitude,
+        created_at;
+      `,
+      [
+        req.user.utilityId,
+        title.trim(),
+        category,
+        subtype || null,
+        voltage_kv ?? null,
+        start_date || null,
+        end_date || null,
+        status || 'Planned',
+        lng,
+        lat,
+      ]
+    );
+
+    res.status(201).json({
+      message: 'Project created successfully',
+      project: result.rows[0],
+    });
+
+  } catch (error) {
+    console.error(
+      'Error creating project:',
+      error
+    );
+
+    res.status(500).json({
+      error: 'Failed to create project',
     });
   }
 });
