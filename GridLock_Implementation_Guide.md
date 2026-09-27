@@ -72,7 +72,7 @@ ShellHacks_Project_GridLock/
 
 ## 1. SYSTEM ARCHITECTURE
 
-```text
+
 ┌─────────────────────────────────────────────────────────────┐
 │                       REACT FRONTEND                        │
 │ Login / Register / Dashboard / Map / Project Form          │
